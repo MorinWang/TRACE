@@ -1,0 +1,4 @@
+{
+    "run_label": "locomo_main",
+    "description": "TRACE main config for LoCoMo. All ablation flags ON (full pipeline). Defaults from eval_locomo driver."
+}

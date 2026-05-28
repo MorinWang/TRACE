@@ -1,0 +1,10 @@
+bert-score
+networkx
+nltk
+numpy
+openai
+rouge-score
+scikit-learn
+sentence-transformers
+tiktoken
+tqdm

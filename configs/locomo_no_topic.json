@@ -1,0 +1,8 @@
+{
+    "run_label": "locomo_no_topic",
+    "description": "LoCoMo ablation: TRACE-full minus Topic Hier. Session augmentation kept on; isolates the Topic-level increment.",
+    "pipeline": {
+        "topic_augmentation": false,
+        "hierarchical_seed_selection": false
+    }
+}

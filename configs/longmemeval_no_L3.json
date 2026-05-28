@@ -1,0 +1,17 @@
+{
+  "run_label": "longmemeval_no_L3",
+  "description": "LongMemEval ablation: TRACE-full minus L3 (category-adaptive CoT prompt). Keeps full graph + hierarchy + answer-aware paths.",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "extraction_temperature": 0.0,
+  "cross_note_temperature": 0.1,
+  "cross_note_min_jaccard": 0.3,
+  "cross_note_max_candidates": 10,
+  "update_detection_temperature": 0.0,
+  "longmemeval_topic_llm_max_sessions": 120,
+  "longmemeval_topic_chunk_size": 50,
+  "longmemeval_cross_session_window": 5,
+  "longmemeval_skip_update_detection": true,
+  "pipeline": {
+    "layer3_enhanced_qa_prompt": false
+  }
+}

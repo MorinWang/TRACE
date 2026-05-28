@@ -1,0 +1,9 @@
+{
+    "run_label": "locomo_no_hier",
+    "description": "LoCoMo ablation: TRACE-full minus Hier (session + topic + hierarchical_seed_selection).",
+    "pipeline": {
+        "session_augmentation": false,
+        "topic_augmentation": false,
+        "hierarchical_seed_selection": false
+    }
+}

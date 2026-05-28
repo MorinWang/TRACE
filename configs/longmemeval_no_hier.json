@@ -1,0 +1,19 @@
+{
+  "run_label": "longmemeval_no_hier",
+  "description": "LongMemEval ablation: TRACE-full minus Hier (session + topic + hierarchical_seed_selection).",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "extraction_temperature": 0.0,
+  "cross_note_temperature": 0.1,
+  "cross_note_min_jaccard": 0.3,
+  "cross_note_max_candidates": 10,
+  "update_detection_temperature": 0.0,
+  "longmemeval_topic_llm_max_sessions": 120,
+  "longmemeval_topic_chunk_size": 50,
+  "longmemeval_cross_session_window": 5,
+  "longmemeval_skip_update_detection": true,
+  "pipeline": {
+    "session_augmentation": false,
+    "topic_augmentation": false,
+    "hierarchical_seed_selection": false
+  }
+}

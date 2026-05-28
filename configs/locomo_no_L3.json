@@ -1,0 +1,7 @@
+{
+    "run_label": "locomo_no_L3",
+    "description": "LoCoMo ablation: TRACE-full minus L3 (category-adaptive CoT prompt). Keeps full graph + hierarchy + answer-aware paths.",
+    "pipeline": {
+        "layer3_enhanced_qa_prompt": false
+    }
+}
