@@ -1,0 +1,4365 @@
+{
+  "_meta": {
+    "source": "coverage_eval_v1_trace_v2_ACD_hier_20260507_230033.json",
+    "n_total": 59,
+    "n_with_path": 59
+  },
+  "paths": {
+    "stress_001": {
+      "source_sample_idx": 0,
+      "type": "chain_modification",
+      "question": "What is the status of Caroline's adoption process?",
+      "current_valid_answer": "She passed the adoption-agency interviews last Friday.",
+      "outdated_answer": "She had only applied to adoption agencies.",
+      "prediction": "Caroline has applied to adoption agencies and passed adoption agency interviews",
+      "f1_valid": 0.23529411764705882,
+      "path_eids": [
+        "0eb40d73-3dd2-4c29-9ba3-607b462f8d45",
+        "f532e339-c629-4b13-b573-a2ad85c5bfe2",
+        "92fa596b-623f-4874-b1e0-17cb399f96c9",
+        "b3e1c474-7160-4493-a412-c374fc4961c9",
+        "92fa596b-623f-4874-b1e0-17cb399f96c9",
+        "bd47c0c4-7363-459f-8e86-de5ea3b058d9",
+        "1d5d264a-b788-40dd-930f-5359b78f0f88",
+        "5ac2fb89-902f-411b-8ae2-a72c71b5d826",
+        "5ac2fb89-902f-411b-8ae2-a72c71b5d826",
+        "1d5d264a-b788-40dd-930f-5359b78f0f88"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "0eb40d73-3dd2-4c29-9ba3-607b462f8d45",
+            "f532e339-c629-4b13-b573-a2ad85c5bfe2"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 1.036336612701416
+        },
+        {
+          "eids": [
+            "92fa596b-623f-4874-b1e0-17cb399f96c9",
+            "b3e1c474-7160-4493-a412-c374fc4961c9"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 1.0319101750850677
+        },
+        {
+          "eids": [
+            "92fa596b-623f-4874-b1e0-17cb399f96c9",
+            "bd47c0c4-7363-459f-8e86-de5ea3b058d9"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 1.0319101750850677
+        },
+        {
+          "eids": [
+            "1d5d264a-b788-40dd-930f-5359b78f0f88",
+            "5ac2fb89-902f-411b-8ae2-a72c71b5d826"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9952915132045747
+        },
+        {
+          "eids": [
+            "5ac2fb89-902f-411b-8ae2-a72c71b5d826",
+            "1d5d264a-b788-40dd-930f-5359b78f0f88"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9952915132045747
+        }
+      ]
+    },
+    "stress_003": {
+      "source_sample_idx": 0,
+      "type": "contradiction_resolution",
+      "question": "How does Melanie later make time for herself?",
+      "current_valid_answer": "By running and extending her runs as self-care.",
+      "outdated_answer": "She was too swamped with the kids and work to have much me-time.",
+      "prediction": "carving out me-time each day for running, reading, or playing violin",
+      "f1_valid": 0.10526315789473685,
+      "path_eids": [
+        "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+        "f699d0d4-fc13-485e-b425-95cba1eba2ff",
+        "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+        "f699d0d4-fc13-485e-b425-95cba1eba2ff",
+        "2f31c73c-69de-4102-a726-98b3150373b9",
+        "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+        "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+        "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+        "f699d0d4-fc13-485e-b425-95cba1eba2ff"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+            "f699d0d4-fc13-485e-b425-95cba1eba2ff"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8689631640911103
+        },
+        {
+          "eids": [
+            "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+            "f699d0d4-fc13-485e-b425-95cba1eba2ff",
+            "2f31c73c-69de-4102-a726-98b3150373b9"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_after"
+          ],
+          "score": 0.8689631640911103
+        },
+        {
+          "eids": [
+            "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7939631640911102
+        },
+        {
+          "eids": [
+            "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7939631640911102
+        },
+        {
+          "eids": [
+            "1fe3f1b6-10dd-47d2-8bab-ec6eb296ad8d",
+            "f699d0d4-fc13-485e-b425-95cba1eba2ff"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "session_link"
+          ],
+          "score": 0.7939631640911102
+        }
+      ]
+    },
+    "stress_004": {
+      "source_sample_idx": 0,
+      "type": "fact_override",
+      "question": "What kind of family plan is Caroline pursuing?",
+      "current_valid_answer": "She wants to become a mother through adoption.",
+      "outdated_answer": "She was only talking about maybe becoming a single parent someday.",
+      "prediction": "adoption plan",
+      "f1_valid": 0.2,
+      "path_eids": [
+        "cfbb1894-8858-4f76-976b-3dce22ca4d3e",
+        "b3e1c474-7160-4493-a412-c374fc4961c9",
+        "cfbb1894-8858-4f76-976b-3dce22ca4d3e",
+        "4cbcd6af-1bd1-4956-86ea-1bb6eaad1aed",
+        "92fa596b-623f-4874-b1e0-17cb399f96c9",
+        "b3e1c474-7160-4493-a412-c374fc4961c9",
+        "92fa596b-623f-4874-b1e0-17cb399f96c9",
+        "bd47c0c4-7363-459f-8e86-de5ea3b058d9",
+        "0eb40d73-3dd2-4c29-9ba3-607b462f8d45",
+        "f532e339-c629-4b13-b573-a2ad85c5bfe2"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "cfbb1894-8858-4f76-976b-3dce22ca4d3e",
+            "b3e1c474-7160-4493-a412-c374fc4961c9"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8690220892429352
+        },
+        {
+          "eids": [
+            "cfbb1894-8858-4f76-976b-3dce22ca4d3e",
+            "4cbcd6af-1bd1-4956-86ea-1bb6eaad1aed"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8690220892429352
+        },
+        {
+          "eids": [
+            "92fa596b-623f-4874-b1e0-17cb399f96c9",
+            "b3e1c474-7160-4493-a412-c374fc4961c9"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8517926529049874
+        },
+        {
+          "eids": [
+            "92fa596b-623f-4874-b1e0-17cb399f96c9",
+            "bd47c0c4-7363-459f-8e86-de5ea3b058d9"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8517926529049874
+        },
+        {
+          "eids": [
+            "0eb40d73-3dd2-4c29-9ba3-607b462f8d45",
+            "f532e339-c629-4b13-b573-a2ad85c5bfe2"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8276399463415146
+        }
+      ]
+    },
+    "stress_005": {
+      "source_sample_idx": 0,
+      "type": "fact_override",
+      "question": "What did Caroline's LGBTQ+ involvement grow into?",
+      "current_valid_answer": "It grew from attending a support group to joining a new LGBTQ+ activist group.",
+      "outdated_answer": "It was still just attending a support group for herself.",
+      "prediction": "volunteering at an LGBTQ+ youth center and joining the 'Connected LGBTQ Activists' group",
+      "f1_valid": 0.24000000000000002,
+      "path_eids": [
+        "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+        "f57f8fd0-7237-4a9f-886f-1db271a2d071",
+        "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+        "5c290155-0af5-43ac-b532-5aa7cb3b3c4b",
+        "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+        "f57f8fd0-7237-4a9f-886f-1db271a2d071",
+        "98af3a75-7051-455c-b1c3-c37007e97184",
+        "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+        "5c290155-0af5-43ac-b532-5aa7cb3b3c4b",
+        "2884ce7e-5e75-42fd-992f-21591b6ea11f",
+        "9929cd16-7f4c-403a-94f7-1c9a85a84a2f",
+        "a6e4f06c-7652-4fe4-a66c-ede4c276326f"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+            "f57f8fd0-7237-4a9f-886f-1db271a2d071"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9747228354215622
+        },
+        {
+          "eids": [
+            "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+            "5c290155-0af5-43ac-b532-5aa7cb3b3c4b"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9747228354215622
+        },
+        {
+          "eids": [
+            "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+            "f57f8fd0-7237-4a9f-886f-1db271a2d071",
+            "98af3a75-7051-455c-b1c3-c37007e97184"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.9747228354215622
+        },
+        {
+          "eids": [
+            "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+            "5c290155-0af5-43ac-b532-5aa7cb3b3c4b",
+            "2884ce7e-5e75-42fd-992f-21591b6ea11f"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_after"
+          ],
+          "score": 0.9747228354215622
+        },
+        {
+          "eids": [
+            "9929cd16-7f4c-403a-94f7-1c9a85a84a2f",
+            "a6e4f06c-7652-4fe4-a66c-ede4c276326f"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9476367771625519
+        }
+      ]
+    },
+    "stress_002": {
+      "source_sample_idx": 0,
+      "type": "chain_modification",
+      "question": "How is Caroline supporting LGBTQ+ youth?",
+      "current_valid_answer": "She is volunteering at an LGBTQ+ youth center.",
+      "outdated_answer": "She was only exploring counseling or mental-health work.",
+      "prediction": "Mentoring LGBTQ youth at a center and organizing supportive events",
+      "f1_valid": 0.33333333333333326,
+      "path_eids": [
+        "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+        "f57f8fd0-7237-4a9f-886f-1db271a2d071",
+        "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+        "5c290155-0af5-43ac-b532-5aa7cb3b3c4b",
+        "4f4ae457-b021-42f6-9cda-ca8b59bf7d02",
+        "4f4ae457-b021-42f6-9cda-ca8b59bf7d02",
+        "99d6f2a2-9517-4116-80f8-915a32e352b7"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+            "f57f8fd0-7237-4a9f-886f-1db271a2d071"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9507848083972932
+        },
+        {
+          "eids": [
+            "1f36d0e4-5608-44ef-8bca-ce53618dd2e9",
+            "5c290155-0af5-43ac-b532-5aa7cb3b3c4b"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9507848083972932
+        },
+        {
+          "eids": [
+            "4f4ae457-b021-42f6-9cda-ca8b59bf7d02"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.925257322192192
+        },
+        {
+          "eids": [
+            "4f4ae457-b021-42f6-9cda-ca8b59bf7d02"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.925257322192192
+        },
+        {
+          "eids": [
+            "99d6f2a2-9517-4116-80f8-915a32e352b7"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9098789513111114
+        }
+      ]
+    },
+    "stress_008": {
+      "source_sample_idx": 1,
+      "type": "chain_modification",
+      "question": "What stage did Jon reach with the dance-studio idea he had after losing his banker job?",
+      "current_valid_answer": "He reached the point of preparing for the studio's grand opening.",
+      "outdated_answer": "It was still only a post-layoff idea.",
+      "prediction": "opened his own dance studio",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "f242998f-d3ea-4543-84f1-777454acdddf",
+        "fc248933-02c2-42b4-a88b-8aee4c6a5228",
+        "105ba573-3416-495e-bdfb-68d4dffb9b06",
+        "d73da1a6-ab05-4e23-a1e8-a942ba459ccf",
+        "32533e0d-7ed8-4bcd-8e71-5a98539a6828",
+        "3a697ef4-ad0a-4ce5-8c64-d9b5503aa3e0",
+        "105ba573-3416-495e-bdfb-68d4dffb9b06",
+        "f4a6c4b7-8d32-4557-9629-cb43b3d68d86",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "f242998f-d3ea-4543-84f1-777454acdddf",
+            "fc248933-02c2-42b4-a88b-8aee4c6a5228"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9141149282455445
+        },
+        {
+          "eids": [
+            "105ba573-3416-495e-bdfb-68d4dffb9b06",
+            "d73da1a6-ab05-4e23-a1e8-a942ba459ccf"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9100476682186127
+        },
+        {
+          "eids": [
+            "32533e0d-7ed8-4bcd-8e71-5a98539a6828",
+            "3a697ef4-ad0a-4ce5-8c64-d9b5503aa3e0"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.890558734536171
+        },
+        {
+          "eids": [
+            "105ba573-3416-495e-bdfb-68d4dffb9b06",
+            "f4a6c4b7-8d32-4557-9629-cb43b3d68d86"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8850476682186127
+        },
+        {
+          "eids": [
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+            "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8794812977313996
+        }
+      ]
+    },
+    "stress_006": {
+      "source_sample_idx": 1,
+      "type": "fact_override",
+      "question": "What professional opportunity is Gina pursuing?",
+      "current_valid_answer": "A fashion internship with an international company.",
+      "outdated_answer": "Her old DoorDash job.",
+      "prediction": "fashion internship",
+      "f1_valid": 0.4444444444444445,
+      "path_eids": [
+        "eb2e77b1-3505-48f5-9154-b3644043ca98",
+        "9d779024-9077-4e0c-bb6f-3bb54297193d",
+        "2484f504-4e48-483d-82b1-f47df04f4e66",
+        "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+        "2484f504-4e48-483d-82b1-f47df04f4e66",
+        "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+        "2adc3c2c-a950-4f16-9c59-7df24d7cf882",
+        "2484f504-4e48-483d-82b1-f47df04f4e66",
+        "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+        "da757537-25c2-4c62-93e6-b9cfc69ecbdb",
+        "2484f504-4e48-483d-82b1-f47df04f4e66",
+        "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+        "7092e2e5-ca33-4890-809c-807349c608a2"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "eb2e77b1-3505-48f5-9154-b3644043ca98",
+            "9d779024-9077-4e0c-bb6f-3bb54297193d"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9105268850922585
+        },
+        {
+          "eids": [
+            "2484f504-4e48-483d-82b1-f47df04f4e66",
+            "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8637910589575768
+        },
+        {
+          "eids": [
+            "2484f504-4e48-483d-82b1-f47df04f4e66",
+            "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+            "2adc3c2c-a950-4f16-9c59-7df24d7cf882"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8637910589575768
+        },
+        {
+          "eids": [
+            "2484f504-4e48-483d-82b1-f47df04f4e66",
+            "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+            "da757537-25c2-4c62-93e6-b9cfc69ecbdb"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8637910589575768
+        },
+        {
+          "eids": [
+            "2484f504-4e48-483d-82b1-f47df04f4e66",
+            "3ec7cb8c-a17c-4997-a436-e527f6ea3bd6",
+            "7092e2e5-ca33-4890-809c-807349c608a2"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8637910589575768
+        }
+      ]
+    },
+    "stress_009": {
+      "source_sample_idx": 1,
+      "type": "fact_override",
+      "question": "What is Jon doing professionally instead of banking?",
+      "current_valid_answer": "He is running his own dance studio.",
+      "outdated_answer": "Working as a banker.",
+      "prediction": "starting a dance studio",
+      "f1_valid": 0.36363636363636365,
+      "path_eids": [
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd",
+        "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+        "32533e0d-7ed8-4bcd-8e71-5a98539a6828",
+        "3a697ef4-ad0a-4ce5-8c64-d9b5503aa3e0",
+        "f242998f-d3ea-4543-84f1-777454acdddf",
+        "fc248933-02c2-42b4-a88b-8aee4c6a5228"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+            "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9456256985664367
+        },
+        {
+          "eids": [
+            "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9046725392341614
+        },
+        {
+          "eids": [
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+            "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9046725392341614
+        },
+        {
+          "eids": [
+            "32533e0d-7ed8-4bcd-8e71-5a98539a6828",
+            "3a697ef4-ad0a-4ce5-8c64-d9b5503aa3e0"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8655318513512612
+        },
+        {
+          "eids": [
+            "f242998f-d3ea-4543-84f1-777454acdddf",
+            "fc248933-02c2-42b4-a88b-8aee4c6a5228"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8597194388508798
+        }
+      ]
+    },
+    "stress_007": {
+      "source_sample_idx": 1,
+      "type": "fact_override",
+      "question": "How are Gina's customers placing orders?",
+      "current_valid_answer": "Through the new website she built for customer orders.",
+      "outdated_answer": "Through her earlier online-store setup without the new site.",
+      "prediction": "Through a new website",
+      "f1_valid": 0.46153846153846156,
+      "path_eids": [
+        "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+        "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+        "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+        "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+        "bc3b2c7d-7f68-408c-8fa9-16780bf01f2c",
+        "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+        "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+        "81007dd7-d517-46e5-b56d-50ba374a2fcd",
+        "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+        "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+        "93063cc6-8dde-4ed9-b585-9e66afb90d70",
+        "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+        "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+        "106778a3-70c7-49ba-b0fc-12b0edb1e393"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+            "3ff9f406-b469-4b32-abf8-b5a372cb3aa9"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8376713111996651
+        },
+        {
+          "eids": [
+            "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+            "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+            "bc3b2c7d-7f68-408c-8fa9-16780bf01f2c"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8376713111996651
+        },
+        {
+          "eids": [
+            "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+            "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+            "81007dd7-d517-46e5-b56d-50ba374a2fcd"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8376713111996651
+        },
+        {
+          "eids": [
+            "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+            "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+            "93063cc6-8dde-4ed9-b585-9e66afb90d70"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8376713111996651
+        },
+        {
+          "eids": [
+            "0f0bbf0c-323e-4d6a-b33b-af9adcebcc80",
+            "3ff9f406-b469-4b32-abf8-b5a372cb3aa9",
+            "106778a3-70c7-49ba-b0fc-12b0edb1e393"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8376713111996651
+        }
+      ]
+    },
+    "stress_010": {
+      "source_sample_idx": 1,
+      "type": "fact_override",
+      "question": "What did Jon decide about the studio by July 2023?",
+      "current_valid_answer": "He decided to go full-time with the business.",
+      "outdated_answer": "It was still more of an early-stage side venture.",
+      "prediction": "Opening a dance studio",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd",
+        "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+        "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+        "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd",
+        "f242998f-d3ea-4543-84f1-777454acdddf",
+        "fc248933-02c2-42b4-a88b-8aee4c6a5228"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9192685544490814
+        },
+        {
+          "eids": [
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+            "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9192685544490814
+        },
+        {
+          "eids": [
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+            "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8974197268486023
+        },
+        {
+          "eids": [
+            "dd2503ed-ebe9-4d62-8eb1-f2500eaf7135",
+            "e34c7f7a-54dc-4df0-a4bb-939a92eca817",
+            "0dd5e7d8-166d-4fa7-a8b8-33b071fef6bd"
+          ],
+          "edge_types": [
+            "updates",
+            "causes"
+          ],
+          "score": 0.8967685544490814
+        },
+        {
+          "eids": [
+            "f242998f-d3ea-4543-84f1-777454acdddf",
+            "fc248933-02c2-42b4-a88b-8aee4c6a5228"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8910094663500786
+        }
+      ]
+    },
+    "stress_014": {
+      "source_sample_idx": 2,
+      "type": "fact_override",
+      "question": "What puppy has Maria adopted after Coco?",
+      "current_valid_answer": "Shadow, her newest adopted puppy after Coco.",
+      "outdated_answer": "Coco.",
+      "prediction": "No puppy has been adopted after Coco",
+      "f1_valid": 0.5714285714285714,
+      "path_eids": [
+        "58555b84-8ec9-465c-9df4-ddfe1824931d",
+        "ee27b6f9-f640-40f3-b4e2-ac4b45e197e1",
+        "ee27b6f9-f640-40f3-b4e2-ac4b45e197e1",
+        "58555b84-8ec9-465c-9df4-ddfe1824931d",
+        "58555b84-8ec9-465c-9df4-ddfe1824931d",
+        "58555b84-8ec9-465c-9df4-ddfe1824931d",
+        "58555b84-8ec9-465c-9df4-ddfe1824931d",
+        "ee27b6f9-f640-40f3-b4e2-ac4b45e197e1"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "58555b84-8ec9-465c-9df4-ddfe1824931d",
+            "ee27b6f9-f640-40f3-b4e2-ac4b45e197e1"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9497785389423371
+        },
+        {
+          "eids": [
+            "ee27b6f9-f640-40f3-b4e2-ac4b45e197e1",
+            "58555b84-8ec9-465c-9df4-ddfe1824931d"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9497785389423371
+        },
+        {
+          "eids": [
+            "58555b84-8ec9-465c-9df4-ddfe1824931d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8997785389423371
+        },
+        {
+          "eids": [
+            "58555b84-8ec9-465c-9df4-ddfe1824931d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8997785389423371
+        },
+        {
+          "eids": [
+            "58555b84-8ec9-465c-9df4-ddfe1824931d",
+            "ee27b6f9-f640-40f3-b4e2-ac4b45e197e1"
+          ],
+          "edge_types": [
+            "updates",
+            "session_link"
+          ],
+          "score": 0.8822785389423371
+        }
+      ]
+    },
+    "stress_012": {
+      "source_sample_idx": 2,
+      "type": "chain_modification",
+      "question": "What new role did John take on after that job loss?",
+      "current_valid_answer": "He joined the fire-fighting brigade.",
+      "outdated_answer": "He was just looking for his next move after losing the engineering job.",
+      "prediction": "After losing his job, John looked into opportunities in the tech industry",
+      "f1_valid": 0.11764705882352941,
+      "path_eids": [
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "96622fc9-8a48-4585-a8bd-82e159898bf2",
+        "96622fc9-8a48-4585-a8bd-82e159898bf2",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "96622fc9-8a48-4585-a8bd-82e159898bf2"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+            "96622fc9-8a48-4585-a8bd-82e159898bf2"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9670100063085556
+        },
+        {
+          "eids": [
+            "96622fc9-8a48-4585-a8bd-82e159898bf2",
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9670100063085556
+        },
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9170100063085556
+        },
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9170100063085556
+        },
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+            "96622fc9-8a48-4585-a8bd-82e159898bf2"
+          ],
+          "edge_types": [
+            "causes",
+            "session_link"
+          ],
+          "score": 0.8995100063085556
+        }
+      ]
+    },
+    "stress_011": {
+      "source_sample_idx": 2,
+      "type": "contradiction_resolution",
+      "question": "What happened to John's employment after he said his new job was going well?",
+      "current_valid_answer": "He lost that job when the mechanical-engineering company collapsed.",
+      "outdated_answer": "He was still thriving in the new job.",
+      "prediction": "lost his job at the mechanical engineering company",
+      "f1_valid": 0.47058823529411764,
+      "path_eids": [
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "96622fc9-8a48-4585-a8bd-82e159898bf2",
+        "96622fc9-8a48-4585-a8bd-82e159898bf2",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+        "96622fc9-8a48-4585-a8bd-82e159898bf2"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+            "96622fc9-8a48-4585-a8bd-82e159898bf2"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.952818775177002
+        },
+        {
+          "eids": [
+            "96622fc9-8a48-4585-a8bd-82e159898bf2",
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.952818775177002
+        },
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.902818775177002
+        },
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.902818775177002
+        },
+        {
+          "eids": [
+            "8533f3a1-cf29-46ad-bde0-bb53c4bd893d",
+            "96622fc9-8a48-4585-a8bd-82e159898bf2"
+          ],
+          "edge_types": [
+            "causes",
+            "session_link"
+          ],
+          "score": 0.885318775177002
+        }
+      ]
+    },
+    "stress_058": {
+      "source_sample_idx": 2,
+      "type": "contradiction_resolution",
+      "question": "How does John feel about his ability to make a difference?",
+      "current_valid_answer": "He expressed renewed motivation and determination to continue striving for success.",
+      "outdated_answer": "He was experiencing doubt about whether he was making a difference.",
+      "prediction": "He feels passionate and motivated about making a difference",
+      "f1_valid": 0.19999999999999998,
+      "path_eids": [
+        "2b8f78ed-b727-4e00-bcb7-858d676607d8",
+        "fe7fdacb-7972-4a81-af96-caa4fc15d821",
+        "2b8f78ed-b727-4e00-bcb7-858d676607d8",
+        "c2e59b6c-56d3-4e06-b5a9-bdbe4a37a152",
+        "99e54b13-215d-42f0-8ed5-3a76b51290c5",
+        "b637bfc9-0a88-4d89-8271-20606a40cd9c",
+        "99e54b13-215d-42f0-8ed5-3a76b51290c5",
+        "bd8ba07c-2331-4747-8023-c8dfd8fa3e30",
+        "8b5e6093-bde4-4d7a-afa5-8cb17e9cd0e7",
+        "6487e936-3638-4110-8738-23bf4a3500ce"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "2b8f78ed-b727-4e00-bcb7-858d676607d8",
+            "fe7fdacb-7972-4a81-af96-caa4fc15d821"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.8272642612457276
+        },
+        {
+          "eids": [
+            "2b8f78ed-b727-4e00-bcb7-858d676607d8",
+            "c2e59b6c-56d3-4e06-b5a9-bdbe4a37a152"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8272642612457276
+        },
+        {
+          "eids": [
+            "99e54b13-215d-42f0-8ed5-3a76b51290c5",
+            "b637bfc9-0a88-4d89-8271-20606a40cd9c"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8153350397944451
+        },
+        {
+          "eids": [
+            "99e54b13-215d-42f0-8ed5-3a76b51290c5",
+            "bd8ba07c-2331-4747-8023-c8dfd8fa3e30"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.802835039794445
+        },
+        {
+          "eids": [
+            "8b5e6093-bde4-4d7a-afa5-8cb17e9cd0e7",
+            "6487e936-3638-4110-8738-23bf4a3500ce"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.7910665661096573
+        }
+      ]
+    },
+    "stress_013": {
+      "source_sample_idx": 2,
+      "type": "chain_modification",
+      "question": "What recognition did Maria receive for her homeless-shelter volunteering?",
+      "current_valid_answer": "She received a medal.",
+      "outdated_answer": "She was only volunteering or dropping off baked goods without formal recognition.",
+      "prediction": "medal",
+      "f1_valid": 0.4,
+      "path_eids": [
+        "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+        "b637bfc9-0a88-4d89-8271-20606a40cd9c",
+        "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+        "b637bfc9-0a88-4d89-8271-20606a40cd9c",
+        "99e54b13-215d-42f0-8ed5-3a76b51290c5",
+        "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+        "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+        "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+        "b637bfc9-0a88-4d89-8271-20606a40cd9c"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+            "b637bfc9-0a88-4d89-8271-20606a40cd9c"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8524129375815391
+        },
+        {
+          "eids": [
+            "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+            "b637bfc9-0a88-4d89-8271-20606a40cd9c",
+            "99e54b13-215d-42f0-8ed5-3a76b51290c5"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.8299129375815392
+        },
+        {
+          "eids": [
+            "7c85a3b0-3a13-4544-82cf-5a44e0e38504"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8024129375815392
+        },
+        {
+          "eids": [
+            "7c85a3b0-3a13-4544-82cf-5a44e0e38504"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8024129375815392
+        },
+        {
+          "eids": [
+            "7c85a3b0-3a13-4544-82cf-5a44e0e38504",
+            "b637bfc9-0a88-4d89-8271-20606a40cd9c"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "session_link"
+          ],
+          "score": 0.7849129375815391
+        }
+      ]
+    },
+    "stress_015": {
+      "source_sample_idx": 2,
+      "type": "chain_modification",
+      "question": "How did John's plan to serve the community become concrete?",
+      "current_valid_answer": "He moved from broad public-service ambitions to joining the fire-fighting brigade.",
+      "outdated_answer": "He was still only talking about making a difference someday.",
+      "prediction": "Engagement in local politics, focus on education and infrastructure, community collaboration",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "6463f7f9-2938-4108-845b-8d03825be60b",
+        "514ca2a6-8046-4735-9d56-76abb90c4fd4",
+        "6463f7f9-2938-4108-845b-8d03825be60b",
+        "49ef4049-ea3b-4821-9b80-37c9f2a86ca9",
+        "49ef4049-ea3b-4821-9b80-37c9f2a86ca9",
+        "6463f7f9-2938-4108-845b-8d03825be60b",
+        "49ef4049-ea3b-4821-9b80-37c9f2a86ca9",
+        "97a601e7-15d4-46b3-88e5-ed9e2311d80b",
+        "6463f7f9-2938-4108-845b-8d03825be60b"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "6463f7f9-2938-4108-845b-8d03825be60b",
+            "514ca2a6-8046-4735-9d56-76abb90c4fd4"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.875049963593483
+        },
+        {
+          "eids": [
+            "6463f7f9-2938-4108-845b-8d03825be60b",
+            "49ef4049-ea3b-4821-9b80-37c9f2a86ca9"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.875049963593483
+        },
+        {
+          "eids": [
+            "49ef4049-ea3b-4821-9b80-37c9f2a86ca9",
+            "6463f7f9-2938-4108-845b-8d03825be60b"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.875049963593483
+        },
+        {
+          "eids": [
+            "49ef4049-ea3b-4821-9b80-37c9f2a86ca9",
+            "97a601e7-15d4-46b3-88e5-ed9e2311d80b"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.817669951915741
+        },
+        {
+          "eids": [
+            "6463f7f9-2938-4108-845b-8d03825be60b"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.800049963593483
+        }
+      ]
+    },
+    "stress_016": {
+      "source_sample_idx": 3,
+      "type": "contradiction_resolution",
+      "question": "How did Nate do in his second video-game tournament?",
+      "current_valid_answer": "He had a setback and did not do well.",
+      "outdated_answer": "He won the tournament.",
+      "prediction": "Won his second tournament",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "cd1817e4-16c3-41b4-bf95-19505d6b7891",
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "cd1817e4-16c3-41b4-bf95-19505d6b7891",
+        "f3ffbbf5-ff20-4487-be44-a6ff88dcb7d7",
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140",
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140",
+        "0497934e-d47f-4ba1-afa1-73c8ef3067d5",
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140",
+        "68376e41-385a-4b8a-89c7-2281bbfc58dc"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "cd1817e4-16c3-41b4-bf95-19505d6b7891"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9984840869903564
+        },
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "cd1817e4-16c3-41b4-bf95-19505d6b7891",
+            "f3ffbbf5-ff20-4487-be44-a6ff88dcb7d7"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.9984840869903564
+        },
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9734840869903565
+        },
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140",
+            "0497934e-d47f-4ba1-afa1-73c8ef3067d5"
+          ],
+          "edge_types": [
+            "updates",
+            "temporal_before"
+          ],
+          "score": 0.9734840869903565
+        },
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140",
+            "68376e41-385a-4b8a-89c7-2281bbfc58dc"
+          ],
+          "edge_types": [
+            "updates",
+            "temporal_after"
+          ],
+          "score": 0.9734840869903565
+        }
+      ]
+    },
+    "stress_017": {
+      "source_sample_idx": 3,
+      "type": "chain_modification",
+      "question": "What had gaming become for Nate by August 2022?",
+      "current_valid_answer": "A career that was making him money.",
+      "outdated_answer": "Just a hobby with an early tournament win.",
+      "prediction": "source of success and livelihood",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "63a41f52-e3e0-4376-9b71-a97fef9c698b",
+        "554a4150-369a-4d15-b42e-848e68fc2257",
+        "63a41f52-e3e0-4376-9b71-a97fef9c698b",
+        "85c83c43-cb96-469e-bd27-0e8287888304",
+        "423ee172-0787-449d-adaf-edc499a36dd0",
+        "423ee172-0787-449d-adaf-edc499a36dd0",
+        "5e45f138-cf95-4a0f-a135-b0effae1b876"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "63a41f52-e3e0-4376-9b71-a97fef9c698b",
+            "554a4150-369a-4d15-b42e-848e68fc2257"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9126262187957764
+        },
+        {
+          "eids": [
+            "63a41f52-e3e0-4376-9b71-a97fef9c698b",
+            "85c83c43-cb96-469e-bd27-0e8287888304"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9126262187957764
+        },
+        {
+          "eids": [
+            "423ee172-0787-449d-adaf-edc499a36dd0"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8637811452150346
+        },
+        {
+          "eids": [
+            "423ee172-0787-449d-adaf-edc499a36dd0"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8637811452150346
+        },
+        {
+          "eids": [
+            "5e45f138-cf95-4a0f-a135-b0effae1b876"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8575949043035507
+        }
+      ]
+    },
+    "stress_020": {
+      "source_sample_idx": 3,
+      "type": "chain_modification",
+      "question": "What happened to Joanna's producer pitch after she got positive feedback?",
+      "current_valid_answer": "She moved on to filming her own movie from a road-trip script.",
+      "outdated_answer": "She was still only pitching scripts to producers.",
+      "prediction": "Joanna felt hopeful and inspired about the future",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "61390050-2952-4822-a5a4-43773f1c0e46",
+        "ad00d1d9-c92b-4914-806b-491c78a97f90",
+        "905a5c32-fd00-407c-a4d8-a0100f72b8f4",
+        "36a9b3c5-3b2d-4ab2-929e-4249eceb5e63",
+        "905a5c32-fd00-407c-a4d8-a0100f72b8f4",
+        "63c6454e-7cb1-4274-864c-b9e61a4e88c8",
+        "83a4f00b-dce9-40c7-8378-33d0782c157b",
+        "282c8940-e6eb-419b-b070-7a7267392faa",
+        "83a4f00b-dce9-40c7-8378-33d0782c157b",
+        "5cf61c5a-402f-4ba3-b8ee-50043f009471"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "61390050-2952-4822-a5a4-43773f1c0e46",
+            "ad00d1d9-c92b-4914-806b-491c78a97f90"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9270262226462365
+        },
+        {
+          "eids": [
+            "905a5c32-fd00-407c-a4d8-a0100f72b8f4",
+            "36a9b3c5-3b2d-4ab2-929e-4249eceb5e63"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9202591061592102
+        },
+        {
+          "eids": [
+            "905a5c32-fd00-407c-a4d8-a0100f72b8f4",
+            "63c6454e-7cb1-4274-864c-b9e61a4e88c8"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9202591061592102
+        },
+        {
+          "eids": [
+            "83a4f00b-dce9-40c7-8378-33d0782c157b",
+            "282c8940-e6eb-419b-b070-7a7267392faa"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9066834077239037
+        },
+        {
+          "eids": [
+            "83a4f00b-dce9-40c7-8378-33d0782c157b",
+            "5cf61c5a-402f-4ba3-b8ee-50043f009471"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9066834077239037
+        }
+      ]
+    },
+    "stress_022": {
+      "source_sample_idx": 3,
+      "type": "chain_modification",
+      "question": "What has Nate done with dairy-free desserts?",
+      "current_valid_answer": "He ended up teaching vegan ice-cream recipes on a cooking show.",
+      "outdated_answer": "He had only made dairy-free ice cream for himself or friends.",
+      "prediction": "Taught vegan ice cream recipes, shared recipes, made coconut milk ice cream, created a dairy-free chocolate cake",
+      "f1_valid": 0.23999999999999996,
+      "path_eids": [
+        "c322b6ae-1a75-4286-8194-e3801d7597a4",
+        "7bbf1315-abb8-40c3-8169-82edaa34afd4",
+        "c322b6ae-1a75-4286-8194-e3801d7597a4",
+        "706189db-2ec7-4b7c-b2b7-aa2678257708",
+        "c322b6ae-1a75-4286-8194-e3801d7597a4",
+        "7bbf1315-abb8-40c3-8169-82edaa34afd4",
+        "8ea68add-8765-44c8-92a4-48a8595a9654",
+        "d3505be1-6af0-4516-a95f-0dae0bb1f2cb",
+        "aec8ac94-87b4-4d04-ab9a-59b768422124",
+        "7c608494-8fc6-4f39-b10a-91c4f8c5169b",
+        "b3a717ed-6faa-47eb-818b-1e2f3e1223c3"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "c322b6ae-1a75-4286-8194-e3801d7597a4",
+            "7bbf1315-abb8-40c3-8169-82edaa34afd4"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9632869362831116
+        },
+        {
+          "eids": [
+            "c322b6ae-1a75-4286-8194-e3801d7597a4",
+            "706189db-2ec7-4b7c-b2b7-aa2678257708"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9632869362831116
+        },
+        {
+          "eids": [
+            "c322b6ae-1a75-4286-8194-e3801d7597a4",
+            "7bbf1315-abb8-40c3-8169-82edaa34afd4",
+            "8ea68add-8765-44c8-92a4-48a8595a9654"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.9632869362831116
+        },
+        {
+          "eids": [
+            "d3505be1-6af0-4516-a95f-0dae0bb1f2cb",
+            "aec8ac94-87b4-4d04-ab9a-59b768422124"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9464808762073518
+        },
+        {
+          "eids": [
+            "7c608494-8fc6-4f39-b10a-91c4f8c5169b",
+            "b3a717ed-6faa-47eb-818b-1e2f3e1223c3"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9430146366357803
+        }
+      ]
+    },
+    "stress_019": {
+      "source_sample_idx": 3,
+      "type": "fact_override",
+      "question": "What script was Joanna working on later in 2022?",
+      "current_valid_answer": "A suspenseful thriller set in a small Midwestern town.",
+      "outdated_answer": "Her earlier script 'Finding Home'.",
+      "prediction": "a movie script",
+      "f1_valid": 0.18181818181818182,
+      "path_eids": [
+        "660ad290-1abc-478e-9eff-17cac85dbd72",
+        "660ad290-1abc-478e-9eff-17cac85dbd72",
+        "54c64ee7-26fb-4d0e-a3d2-9afec8e054e7",
+        "2f8657b1-9276-4700-90d4-9d4fac5dae5d",
+        "be258401-3f29-4196-b8b2-fdb4524c8389",
+        "8fb8c276-2990-4af6-9036-c5c678c93f00",
+        "660ad290-1abc-478e-9eff-17cac85dbd72",
+        "ae8f2c36-313c-469c-bbd0-4ae2260b1a82"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "660ad290-1abc-478e-9eff-17cac85dbd72"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8554977267980576
+        },
+        {
+          "eids": [
+            "660ad290-1abc-478e-9eff-17cac85dbd72"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8554977267980576
+        },
+        {
+          "eids": [
+            "54c64ee7-26fb-4d0e-a3d2-9afec8e054e7",
+            "2f8657b1-9276-4700-90d4-9d4fac5dae5d"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8341118723154068
+        },
+        {
+          "eids": [
+            "be258401-3f29-4196-b8b2-fdb4524c8389",
+            "8fb8c276-2990-4af6-9036-c5c678c93f00"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8059683576226234
+        },
+        {
+          "eids": [
+            "660ad290-1abc-478e-9eff-17cac85dbd72",
+            "ae8f2c36-313c-469c-bbd0-4ae2260b1a82"
+          ],
+          "edge_types": [
+            "session_link",
+            "session_link"
+          ],
+          "score": 0.8029977267980576
+        }
+      ]
+    },
+    "stress_018": {
+      "source_sample_idx": 3,
+      "type": "contradiction_resolution",
+      "question": "What was the later outside response to Joanna's writing after the rejection letter?",
+      "current_valid_answer": "She later had positive meetings with movie producers.",
+      "outdated_answer": "She was still stuck with only a rejection letter and no feedback.",
+      "prediction": "heartfelt letter from a reader",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "737bd1c1-ad06-4799-9c1c-577b9aa93b6d",
+        "bf906544-000d-4820-a201-11ef1c55e470",
+        "737bd1c1-ad06-4799-9c1c-577b9aa93b6d",
+        "554a4150-369a-4d15-b42e-848e68fc2257",
+        "737bd1c1-ad06-4799-9c1c-577b9aa93b6d",
+        "737bd1c1-ad06-4799-9c1c-577b9aa93b6d",
+        "a6765e9c-2d2d-4359-9120-cbae869ff86c",
+        "63cfc6a4-e064-41e6-9d70-538600786841"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "737bd1c1-ad06-4799-9c1c-577b9aa93b6d",
+            "bf906544-000d-4820-a201-11ef1c55e470"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8336620792746544
+        },
+        {
+          "eids": [
+            "737bd1c1-ad06-4799-9c1c-577b9aa93b6d",
+            "554a4150-369a-4d15-b42e-848e68fc2257"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8336620792746544
+        },
+        {
+          "eids": [
+            "737bd1c1-ad06-4799-9c1c-577b9aa93b6d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7586620792746543
+        },
+        {
+          "eids": [
+            "737bd1c1-ad06-4799-9c1c-577b9aa93b6d"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7586620792746543
+        },
+        {
+          "eids": [
+            "a6765e9c-2d2d-4359-9120-cbae869ff86c",
+            "63cfc6a4-e064-41e6-9d70-538600786841"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.6808997109532356
+        }
+      ]
+    },
+    "stress_023": {
+      "source_sample_idx": 3,
+      "type": "contradiction_resolution",
+      "question": "What creative breakthrough did Joanna reach after that rejection?",
+      "current_valid_answer": "She got to see her script shown on the big screen.",
+      "outdated_answer": "She was only dealing with a rejection letter.",
+      "prediction": "writing a new screenplay",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "7c5c0f8b-eb41-45ef-af2e-692aac5b9eec",
+        "dd409df6-a484-4871-ba09-167c9ca74092",
+        "159375ca-0351-4ffb-9385-22cfaf241aa3",
+        "b8dc42c7-d177-46be-a99d-73d99048e790",
+        "be258401-3f29-4196-b8b2-fdb4524c8389",
+        "8fb8c276-2990-4af6-9036-c5c678c93f00",
+        "0ddad1e2-608c-427e-a9d0-4f27673ec978",
+        "0ddad1e2-608c-427e-a9d0-4f27673ec978"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "7c5c0f8b-eb41-45ef-af2e-692aac5b9eec",
+            "dd409df6-a484-4871-ba09-167c9ca74092"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8327584564685822
+        },
+        {
+          "eids": [
+            "159375ca-0351-4ffb-9385-22cfaf241aa3",
+            "b8dc42c7-d177-46be-a99d-73d99048e790"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8111465990543366
+        },
+        {
+          "eids": [
+            "be258401-3f29-4196-b8b2-fdb4524c8389",
+            "8fb8c276-2990-4af6-9036-c5c678c93f00"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.7997573181986809
+        },
+        {
+          "eids": [
+            "0ddad1e2-608c-427e-a9d0-4f27673ec978"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.746979783475399
+        },
+        {
+          "eids": [
+            "0ddad1e2-608c-427e-a9d0-4f27673ec978"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.746979783475399
+        }
+      ]
+    },
+    "stress_021": {
+      "source_sample_idx": 3,
+      "type": "fact_override",
+      "question": "By June 2022, how many video-game tournaments had Nate won?",
+      "current_valid_answer": "Four.",
+      "outdated_answer": "One.",
+      "prediction": "3",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "cd1817e4-16c3-41b4-bf95-19505d6b7891",
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "cd1817e4-16c3-41b4-bf95-19505d6b7891",
+        "f3ffbbf5-ff20-4487-be44-a6ff88dcb7d7",
+        "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+        "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140",
+        "0fbb8c58-74ce-41dc-b654-0e2f9b226074",
+        "6b844b67-48d9-460c-85ac-dcc05ca9f771",
+        "0fbb8c58-74ce-41dc-b654-0e2f9b226074"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "cd1817e4-16c3-41b4-bf95-19505d6b7891"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9828283071517945
+        },
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "cd1817e4-16c3-41b4-bf95-19505d6b7891",
+            "f3ffbbf5-ff20-4487-be44-a6ff88dcb7d7"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.9828283071517945
+        },
+        {
+          "eids": [
+            "d2e98ecd-84bd-4754-972e-fa3bcab6e4cc",
+            "4a044f66-3a2d-4fd0-ae76-f2a6ef35d140"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9578283071517945
+        },
+        {
+          "eids": [
+            "0fbb8c58-74ce-41dc-b654-0e2f9b226074",
+            "6b844b67-48d9-460c-85ac-dcc05ca9f771"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9453283071517945
+        },
+        {
+          "eids": [
+            "0fbb8c58-74ce-41dc-b654-0e2f9b226074"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9078283071517945
+        }
+      ]
+    },
+    "stress_024": {
+      "source_sample_idx": 4,
+      "type": "contradiction_resolution",
+      "question": "Was John still sidelined by his ankle injury by mid-December 2023?",
+      "current_valid_answer": "No. He was jogging without pain again.",
+      "outdated_answer": "Yes. He was still unable to play and only talking about recovery.",
+      "prediction": "No",
+      "f1_valid": 0.25,
+      "path_eids": [
+        "0676092d-7ca8-41cc-9a96-135d04c066aa",
+        "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+        "0676092d-7ca8-41cc-9a96-135d04c066aa",
+        "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+        "6d667dee-f961-426d-af70-c2891ab8d5d0",
+        "0676092d-7ca8-41cc-9a96-135d04c066aa",
+        "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+        "ca135948-b3be-4420-9051-33d781542344",
+        "0676092d-7ca8-41cc-9a96-135d04c066aa",
+        "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+        "4bc58256-8157-4eae-95f3-9aedf8ef77d7",
+        "0676092d-7ca8-41cc-9a96-135d04c066aa"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "0676092d-7ca8-41cc-9a96-135d04c066aa",
+            "cbfa2713-d3c7-43cc-9c6e-78de01e88947"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9966746300458909
+        },
+        {
+          "eids": [
+            "0676092d-7ca8-41cc-9a96-135d04c066aa",
+            "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+            "6d667dee-f961-426d-af70-c2891ab8d5d0"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9966746300458909
+        },
+        {
+          "eids": [
+            "0676092d-7ca8-41cc-9a96-135d04c066aa",
+            "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+            "ca135948-b3be-4420-9051-33d781542344"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9966746300458909
+        },
+        {
+          "eids": [
+            "0676092d-7ca8-41cc-9a96-135d04c066aa",
+            "cbfa2713-d3c7-43cc-9c6e-78de01e88947",
+            "4bc58256-8157-4eae-95f3-9aedf8ef77d7"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9966746300458909
+        },
+        {
+          "eids": [
+            "0676092d-7ca8-41cc-9a96-135d04c066aa"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9216746300458909
+        }
+      ]
+    },
+    "stress_027": {
+      "source_sample_idx": 4,
+      "type": "fact_override",
+      "question": "What endorsement deal has John signed?",
+      "current_valid_answer": "A deal with a beverage company.",
+      "outdated_answer": "The earlier Nike and Gatorade deals.",
+      "prediction": "endorsement deal with Nike for basketball shoes and gear",
+      "f1_valid": 0.2857142857142857,
+      "path_eids": [
+        "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+        "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+        "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+        "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+        "2cf48296-dfcc-4d4b-87a7-63252e665bd2",
+        "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+        "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+        "047e794d-9e64-4a60-b58a-5d2ba9a27df6",
+        "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+        "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+        "eaca81d6-d773-4785-868e-db520918a8a0",
+        "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+        "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+        "95066704-f401-4dd4-a459-61372e30bbb5"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+            "b8e57b3e-8b68-4a55-9228-b3ce234afcf2"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9094906210899354
+        },
+        {
+          "eids": [
+            "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+            "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+            "2cf48296-dfcc-4d4b-87a7-63252e665bd2"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9094906210899354
+        },
+        {
+          "eids": [
+            "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+            "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+            "047e794d-9e64-4a60-b58a-5d2ba9a27df6"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9094906210899354
+        },
+        {
+          "eids": [
+            "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+            "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+            "eaca81d6-d773-4785-868e-db520918a8a0"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9094906210899354
+        },
+        {
+          "eids": [
+            "6b7f3a8d-9cd9-4638-ae01-32bc440f4ef8",
+            "b8e57b3e-8b68-4a55-9228-b3ce234afcf2",
+            "95066704-f401-4dd4-a459-61372e30bbb5"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.9094906210899354
+        }
+      ]
+    },
+    "stress_025": {
+      "source_sample_idx": 4,
+      "type": "fact_override",
+      "question": "How was John helping others off the court?",
+      "current_valid_answer": "He was running seminars about sports and marketing.",
+      "outdated_answer": "He was only mentoring young players one-on-one.",
+      "prediction": "mentoring and providing advice",
+      "f1_valid": 0.16666666666666666,
+      "path_eids": [
+        "5d397796-b215-400a-ad78-09e53cd25946",
+        "ecb4f28a-e1fc-4fbd-8d71-0cd6ae0a7a7a",
+        "5d397796-b215-400a-ad78-09e53cd25946",
+        "d3f2950e-3564-447c-af74-51bf3b47c2bc",
+        "5d397796-b215-400a-ad78-09e53cd25946",
+        "ecb4f28a-e1fc-4fbd-8d71-0cd6ae0a7a7a",
+        "f93ff526-143c-40d8-9975-e87df64327ae",
+        "5d397796-b215-400a-ad78-09e53cd25946",
+        "d3f2950e-3564-447c-af74-51bf3b47c2bc",
+        "3737d9f6-93f7-468b-bd7f-a2d3311d0969",
+        "208f18da-0f59-4366-ba0c-292c361a55fc",
+        "8c1ac848-2f82-4431-8410-6b3509e61e0e"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "5d397796-b215-400a-ad78-09e53cd25946",
+            "ecb4f28a-e1fc-4fbd-8d71-0cd6ae0a7a7a"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.930599144101143
+        },
+        {
+          "eids": [
+            "5d397796-b215-400a-ad78-09e53cd25946",
+            "d3f2950e-3564-447c-af74-51bf3b47c2bc"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.930599144101143
+        },
+        {
+          "eids": [
+            "5d397796-b215-400a-ad78-09e53cd25946",
+            "ecb4f28a-e1fc-4fbd-8d71-0cd6ae0a7a7a",
+            "f93ff526-143c-40d8-9975-e87df64327ae"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.930599144101143
+        },
+        {
+          "eids": [
+            "5d397796-b215-400a-ad78-09e53cd25946",
+            "d3f2950e-3564-447c-af74-51bf3b47c2bc",
+            "3737d9f6-93f7-468b-bd7f-a2d3311d0969"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.930599144101143
+        },
+        {
+          "eids": [
+            "208f18da-0f59-4366-ba0c-292c361a55fc",
+            "8c1ac848-2f82-4431-8410-6b3509e61e0e"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9128335937857628
+        }
+      ]
+    },
+    "stress_026": {
+      "source_sample_idx": 4,
+      "type": "fact_override",
+      "question": "What concrete travel plan did Tim have by early January 2024?",
+      "current_valid_answer": "He had been accepted into a semester-abroad program in Galway, Ireland.",
+      "outdated_answer": "He had only joined a travel club to explore cultures.",
+      "prediction": "researched visa requirements for travel",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+        "430a5a8c-755c-4509-b118-f8779bde858e",
+        "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+        "430a5a8c-755c-4509-b118-f8779bde858e",
+        "6b796348-6bbc-479c-a886-a3ae0779bcbc",
+        "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+        "430a5a8c-755c-4509-b118-f8779bde858e",
+        "4a789637-91a2-4499-81b6-c096b6d437a2",
+        "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+        "430a5a8c-755c-4509-b118-f8779bde858e",
+        "5706063a-f772-449f-90b4-2c9d57cdffad",
+        "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+        "430a5a8c-755c-4509-b118-f8779bde858e",
+        "5d2048c7-2090-4a49-8485-e93e497d19fe"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+            "430a5a8c-755c-4509-b118-f8779bde858e"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8857608437538147
+        },
+        {
+          "eids": [
+            "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+            "430a5a8c-755c-4509-b118-f8779bde858e",
+            "6b796348-6bbc-479c-a886-a3ae0779bcbc"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8857608437538147
+        },
+        {
+          "eids": [
+            "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+            "430a5a8c-755c-4509-b118-f8779bde858e",
+            "4a789637-91a2-4499-81b6-c096b6d437a2"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8857608437538147
+        },
+        {
+          "eids": [
+            "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+            "430a5a8c-755c-4509-b118-f8779bde858e",
+            "5706063a-f772-449f-90b4-2c9d57cdffad"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8857608437538147
+        },
+        {
+          "eids": [
+            "62b317db-0341-4a31-9bc4-5a69cde3ccd2",
+            "430a5a8c-755c-4509-b118-f8779bde858e",
+            "5d2048c7-2090-4a49-8485-e93e497d19fe"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8857608437538147
+        }
+      ]
+    },
+    "stress_028": {
+      "source_sample_idx": 5,
+      "type": "fact_override",
+      "question": "Did Andrew end up getting a dog after all?",
+      "current_valid_answer": "Yes. He adopted a puppy named Toby.",
+      "outdated_answer": "No. He was still only searching shelters and pet-friendly housing.",
+      "prediction": "Yes, Andrew got a dog named Buddy",
+      "f1_valid": 0.42857142857142855,
+      "path_eids": [
+        "c3e575a5-6e27-4033-84fe-601d7d8c5ee9",
+        "e4ad9d3e-8b14-46b5-9b67-d1adae0a9c12",
+        "c3e575a5-6e27-4033-84fe-601d7d8c5ee9",
+        "c3e575a5-6e27-4033-84fe-601d7d8c5ee9",
+        "7d1dea6d-0c9a-41f5-8b05-3b4cba835123",
+        "7d1dea6d-0c9a-41f5-8b05-3b4cba835123"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "c3e575a5-6e27-4033-84fe-601d7d8c5ee9",
+            "e4ad9d3e-8b14-46b5-9b67-d1adae0a9c12"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9611576974391938
+        },
+        {
+          "eids": [
+            "c3e575a5-6e27-4033-84fe-601d7d8c5ee9"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9111576974391937
+        },
+        {
+          "eids": [
+            "c3e575a5-6e27-4033-84fe-601d7d8c5ee9"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9111576974391937
+        },
+        {
+          "eids": [
+            "7d1dea6d-0c9a-41f5-8b05-3b4cba835123"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8986607223749161
+        },
+        {
+          "eids": [
+            "7d1dea6d-0c9a-41f5-8b05-3b4cba835123"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8986607223749161
+        }
+      ]
+    },
+    "stress_029": {
+      "source_sample_idx": 5,
+      "type": "fact_override",
+      "question": "What dog has Andrew adopted after Buddy?",
+      "current_valid_answer": "Scout, his newest adopted dog after Buddy.",
+      "outdated_answer": "Buddy.",
+      "prediction": "Pixie",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "17cc9e45-d183-46f5-9dcb-25d7106f2567",
+        "d33707d7-fce8-423b-a5d7-ed5f3c308d5f",
+        "d33707d7-fce8-423b-a5d7-ed5f3c308d5f",
+        "17cc9e45-d183-46f5-9dcb-25d7106f2567",
+        "17cc9e45-d183-46f5-9dcb-25d7106f2567",
+        "17cc9e45-d183-46f5-9dcb-25d7106f2567",
+        "1f3c0645-ec9d-4fb9-b89b-3f4e88b66505",
+        "dfcb8077-7491-438e-9495-d2f0914b80e4"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "17cc9e45-d183-46f5-9dcb-25d7106f2567",
+            "d33707d7-fce8-423b-a5d7-ed5f3c308d5f"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8836963593959809
+        },
+        {
+          "eids": [
+            "d33707d7-fce8-423b-a5d7-ed5f3c308d5f",
+            "17cc9e45-d183-46f5-9dcb-25d7106f2567"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8836963593959809
+        },
+        {
+          "eids": [
+            "17cc9e45-d183-46f5-9dcb-25d7106f2567"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8040193557739258
+        },
+        {
+          "eids": [
+            "17cc9e45-d183-46f5-9dcb-25d7106f2567"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8040193557739258
+        },
+        {
+          "eids": [
+            "1f3c0645-ec9d-4fb9-b89b-3f4e88b66505",
+            "dfcb8077-7491-438e-9495-d2f0914b80e4"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.7988056138157845
+        }
+      ]
+    },
+    "stress_033": {
+      "source_sample_idx": 5,
+      "type": "temporal_correction",
+      "question": "When were Audrey and Andrew planning their hike together?",
+      "current_valid_answer": "On Saturday, they clarified and planned their hike together for that day.",
+      "outdated_answer": "Sometime next month.",
+      "prediction": "August 2023",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "7e441c62-d84c-44ef-b543-16dc2de3460b",
+        "dfcb8077-7491-438e-9495-d2f0914b80e4",
+        "7e441c62-d84c-44ef-b543-16dc2de3460b",
+        "2006f129-76a5-43aa-aa38-5e7415527e17",
+        "2006f129-76a5-43aa-aa38-5e7415527e17",
+        "7e441c62-d84c-44ef-b543-16dc2de3460b",
+        "12c5a518-08f0-47bf-b3e0-5b38c5d0d4ac",
+        "2006f129-76a5-43aa-aa38-5e7415527e17",
+        "2006f129-76a5-43aa-aa38-5e7415527e17",
+        "12c5a518-08f0-47bf-b3e0-5b38c5d0d4ac"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "7e441c62-d84c-44ef-b543-16dc2de3460b",
+            "dfcb8077-7491-438e-9495-d2f0914b80e4"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6361494634300471
+        },
+        {
+          "eids": [
+            "7e441c62-d84c-44ef-b543-16dc2de3460b",
+            "2006f129-76a5-43aa-aa38-5e7415527e17"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.6270001448690892
+        },
+        {
+          "eids": [
+            "2006f129-76a5-43aa-aa38-5e7415527e17",
+            "7e441c62-d84c-44ef-b543-16dc2de3460b"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.6270001448690892
+        },
+        {
+          "eids": [
+            "12c5a518-08f0-47bf-b3e0-5b38c5d0d4ac",
+            "2006f129-76a5-43aa-aa38-5e7415527e17"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.6159605152904988
+        },
+        {
+          "eids": [
+            "2006f129-76a5-43aa-aa38-5e7415527e17",
+            "12c5a518-08f0-47bf-b3e0-5b38c5d0d4ac"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6159605152904988
+        }
+      ]
+    },
+    "stress_032": {
+      "source_sample_idx": 5,
+      "type": "contradiction_resolution",
+      "question": "What changed in Audrey's routine after her knee injury?",
+      "current_valid_answer": "She was back to walking and hiking with the dogs.",
+      "outdated_answer": "She still could not walk them because of the injury.",
+      "prediction": "Audrey started walking her dogs again after her knee injury",
+      "f1_valid": 0.2105263157894737,
+      "path_eids": [
+        "656a8720-8b89-40d9-abb0-9275b7dec85a",
+        "75f3c03b-60e9-4b9a-be96-5947a1676d7a",
+        "656a8720-8b89-40d9-abb0-9275b7dec85a",
+        "18ba3602-bda6-401d-a492-456232c26f30",
+        "75f3c03b-60e9-4b9a-be96-5947a1676d7a",
+        "656a8720-8b89-40d9-abb0-9275b7dec85a",
+        "656a8720-8b89-40d9-abb0-9275b7dec85a",
+        "75f3c03b-60e9-4b9a-be96-5947a1676d7a",
+        "d691ca12-f235-48f0-b382-4f3aded368a8",
+        "656a8720-8b89-40d9-abb0-9275b7dec85a"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "656a8720-8b89-40d9-abb0-9275b7dec85a",
+            "75f3c03b-60e9-4b9a-be96-5947a1676d7a"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9589582204818726
+        },
+        {
+          "eids": [
+            "656a8720-8b89-40d9-abb0-9275b7dec85a",
+            "18ba3602-bda6-401d-a492-456232c26f30"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9589582204818726
+        },
+        {
+          "eids": [
+            "75f3c03b-60e9-4b9a-be96-5947a1676d7a",
+            "656a8720-8b89-40d9-abb0-9275b7dec85a"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9589582204818726
+        },
+        {
+          "eids": [
+            "656a8720-8b89-40d9-abb0-9275b7dec85a",
+            "75f3c03b-60e9-4b9a-be96-5947a1676d7a",
+            "d691ca12-f235-48f0-b382-4f3aded368a8"
+          ],
+          "edge_types": [
+            "causes",
+            "temporal_before"
+          ],
+          "score": 0.9139582204818726
+        },
+        {
+          "eids": [
+            "656a8720-8b89-40d9-abb0-9275b7dec85a"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9089582204818726
+        }
+      ]
+    },
+    "stress_031": {
+      "source_sample_idx": 5,
+      "type": "fact_override",
+      "question": "How did Audrey improve her dogs' living situation?",
+      "current_valid_answer": "She moved to a new house with a bigger backyard and a dog play area.",
+      "outdated_answer": "They were still in the earlier city-dog setup without the big yard.",
+      "prediction": "new collars and tags",
+      "f1_valid": 0.23529411764705882,
+      "path_eids": [
+        "ca5aafd0-f699-489f-9df2-80324cc9f863",
+        "3619f3b2-aad2-425d-871e-a294c67c99db",
+        "ca5aafd0-f699-489f-9df2-80324cc9f863",
+        "393e3128-9c46-4b3e-ae5d-4a5ce6e9b730",
+        "e85d5a25-82c9-415d-ae2c-8126612d3b4b",
+        "8cbfdd45-79d7-46f7-a69d-9360bb8e46da",
+        "b4c03889-39c6-4aaf-8557-f5f33f302a3b",
+        "1f8a3fb1-4703-4c1f-a2e7-4fe9ad77f8ca",
+        "b4c03889-39c6-4aaf-8557-f5f33f302a3b",
+        "f893fc92-c09d-4892-b278-fe3c9959a4be"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "ca5aafd0-f699-489f-9df2-80324cc9f863",
+            "3619f3b2-aad2-425d-871e-a294c67c99db"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9853100717067719
+        },
+        {
+          "eids": [
+            "ca5aafd0-f699-489f-9df2-80324cc9f863",
+            "393e3128-9c46-4b3e-ae5d-4a5ce6e9b730"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9603100717067719
+        },
+        {
+          "eids": [
+            "e85d5a25-82c9-415d-ae2c-8126612d3b4b",
+            "8cbfdd45-79d7-46f7-a69d-9360bb8e46da"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9480848968029023
+        },
+        {
+          "eids": [
+            "b4c03889-39c6-4aaf-8557-f5f33f302a3b",
+            "1f8a3fb1-4703-4c1f-a2e7-4fe9ad77f8ca"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9366947650909424
+        },
+        {
+          "eids": [
+            "b4c03889-39c6-4aaf-8557-f5f33f302a3b",
+            "f893fc92-c09d-4892-b278-fe3c9959a4be"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9241947650909423
+        }
+      ]
+    },
+    "stress_030": {
+      "source_sample_idx": 5,
+      "type": "chain_modification",
+      "question": "Which dogs was Andrew caring for by late November 2023?",
+      "current_valid_answer": "Toby, Buddy, and Scout.",
+      "outdated_answer": "Just Toby.",
+      "prediction": "Toby",
+      "f1_valid": 0.4,
+      "path_eids": [
+        "c1673ba2-7d75-4b34-8a55-c91dc271fef6",
+        "8cbfdd45-79d7-46f7-a69d-9360bb8e46da",
+        "e16f4edf-b197-4dd2-8b34-a799797d7376",
+        "2714473b-d2bb-41fb-8063-b033024d153b",
+        "e16f4edf-b197-4dd2-8b34-a799797d7376",
+        "d0e9c4f1-ee69-4595-af24-a607f78310aa",
+        "9d151b8c-ccea-493e-8abe-4130e123e1cc",
+        "4b005970-94fa-4b6a-a9eb-5a4cbd4ffc32",
+        "e2b0f9c9-7878-43f4-b805-ce094ea28152",
+        "94763a10-3821-4ad0-abc4-491f913dc699"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "c1673ba2-7d75-4b34-8a55-c91dc271fef6",
+            "8cbfdd45-79d7-46f7-a69d-9360bb8e46da"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8891420602798462
+        },
+        {
+          "eids": [
+            "e16f4edf-b197-4dd2-8b34-a799797d7376",
+            "2714473b-d2bb-41fb-8063-b033024d153b"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8576346710324287
+        },
+        {
+          "eids": [
+            "e16f4edf-b197-4dd2-8b34-a799797d7376",
+            "d0e9c4f1-ee69-4595-af24-a607f78310aa"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8576346710324287
+        },
+        {
+          "eids": [
+            "9d151b8c-ccea-493e-8abe-4130e123e1cc",
+            "4b005970-94fa-4b6a-a9eb-5a4cbd4ffc32"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.846683618426323
+        },
+        {
+          "eids": [
+            "e2b0f9c9-7878-43f4-b805-ce094ea28152",
+            "94763a10-3821-4ad0-abc4-491f913dc699"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8298425927758217
+        }
+      ]
+    },
+    "stress_034": {
+      "source_sample_idx": 5,
+      "type": "fact_override",
+      "question": "What kind of professional help was Audrey seeking for her dogs?",
+      "current_valid_answer": "An appointment with an animal behaviorist.",
+      "outdated_answer": "Only a general dog-training course.",
+      "prediction": "appointment with an animal behaviorist",
+      "f1_valid": 1.0,
+      "path_eids": [
+        "60bb15be-aafd-4d82-b3b4-1e28a66fe6e3",
+        "5930f13d-1c65-489b-b717-7547966f06d4",
+        "5930f13d-1c65-489b-b717-7547966f06d4",
+        "60bb15be-aafd-4d82-b3b4-1e28a66fe6e3",
+        "5930f13d-1c65-489b-b717-7547966f06d4",
+        "74744ce0-40aa-476a-add2-4b10b62cbadf",
+        "ca5aafd0-f699-489f-9df2-80324cc9f863",
+        "3619f3b2-aad2-425d-871e-a294c67c99db",
+        "5930f13d-1c65-489b-b717-7547966f06d4"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "60bb15be-aafd-4d82-b3b4-1e28a66fe6e3",
+            "5930f13d-1c65-489b-b717-7547966f06d4"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9309363842010498
+        },
+        {
+          "eids": [
+            "5930f13d-1c65-489b-b717-7547966f06d4",
+            "60bb15be-aafd-4d82-b3b4-1e28a66fe6e3"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9309363842010498
+        },
+        {
+          "eids": [
+            "5930f13d-1c65-489b-b717-7547966f06d4",
+            "74744ce0-40aa-476a-add2-4b10b62cbadf"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9250441819429398
+        },
+        {
+          "eids": [
+            "ca5aafd0-f699-489f-9df2-80324cc9f863",
+            "3619f3b2-aad2-425d-871e-a294c67c99db"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8919135645031929
+        },
+        {
+          "eids": [
+            "5930f13d-1c65-489b-b717-7547966f06d4"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8750441819429398
+        }
+      ]
+    },
+    "stress_035": {
+      "source_sample_idx": 6,
+      "type": "chain_modification",
+      "question": "What major step did James and Samantha take after becoming a couple?",
+      "current_valid_answer": "They planned to move in together near McGee's bar.",
+      "outdated_answer": "They had only just started dating after he asked her to be his girlfriend.",
+      "prediction": "move in together",
+      "f1_valid": 0.5,
+      "path_eids": [
+        "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7",
+        "e042887f-9c5d-40a8-bcc7-be7691a47853",
+        "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7",
+        "7c0c315b-077f-4ac7-a343-b71253349018",
+        "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7",
+        "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7",
+        "6a020908-498f-491b-9ac9-3335ff631df8",
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7",
+            "e042887f-9c5d-40a8-bcc7-be7691a47853"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8084871485829354
+        },
+        {
+          "eids": [
+            "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7",
+            "7c0c315b-077f-4ac7-a343-b71253349018"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.7833626717329025
+        },
+        {
+          "eids": [
+            "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7176338106393814
+        },
+        {
+          "eids": [
+            "9cbc775f-19b1-42db-9601-5c2d5f6ca5c7"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7176338106393814
+        },
+        {
+          "eids": [
+            "6a020908-498f-491b-9ac9-3335ff631df8",
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6004219286143779
+        }
+      ]
+    },
+    "stress_059": {
+      "source_sample_idx": 6,
+      "type": "contradiction_resolution",
+      "question": "What do James and John think about Manchester City's chances?",
+      "current_valid_answer": "They disagree: one says Man City is in bad form, the other expects them to win the championship.",
+      "outdated_answer": "N/A (within-session disagreement between two speakers)",
+      "prediction": "James thinks Manchester City is in bad form; John believes they will win the championship",
+      "f1_valid": 0.5,
+      "path_eids": [
+        "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+        "355076c6-67aa-406b-8203-0d9cc375c2f8",
+        "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+        "355076c6-67aa-406b-8203-0d9cc375c2f8",
+        "c09a5432-c543-4258-a7e1-9706b18556f6",
+        "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+        "355076c6-67aa-406b-8203-0d9cc375c2f8",
+        "c4632064-697b-464c-81c3-c26e4c70bc6a",
+        "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+        "355076c6-67aa-406b-8203-0d9cc375c2f8",
+        "93ca5477-a314-4c70-90cd-def0dd335c3a",
+        "93ca5477-a314-4c70-90cd-def0dd335c3a",
+        "355076c6-67aa-406b-8203-0d9cc375c2f8",
+        "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+            "355076c6-67aa-406b-8203-0d9cc375c2f8"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8985026925802231
+        },
+        {
+          "eids": [
+            "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+            "355076c6-67aa-406b-8203-0d9cc375c2f8",
+            "c09a5432-c543-4258-a7e1-9706b18556f6"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8760026925802231
+        },
+        {
+          "eids": [
+            "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+            "355076c6-67aa-406b-8203-0d9cc375c2f8",
+            "c4632064-697b-464c-81c3-c26e4c70bc6a"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8760026925802231
+        },
+        {
+          "eids": [
+            "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536",
+            "355076c6-67aa-406b-8203-0d9cc375c2f8",
+            "93ca5477-a314-4c70-90cd-def0dd335c3a"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8760026925802231
+        },
+        {
+          "eids": [
+            "93ca5477-a314-4c70-90cd-def0dd335c3a",
+            "355076c6-67aa-406b-8203-0d9cc375c2f8",
+            "69b3a4ef-8ce7-4ec6-971e-8127c1fc1536"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8760026925802231
+        }
+      ]
+    },
+    "stress_041": {
+      "source_sample_idx": 6,
+      "type": "fact_override",
+      "question": "What is James's relationship status?",
+      "current_valid_answer": "He was Samantha's boyfriend.",
+      "outdated_answer": "He had only just met her and was planning to ask her out.",
+      "prediction": "In a relationship with Samantha",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "dc62a05b-7459-4e53-9320-4611acf3a321",
+        "7b61e8b8-0191-4ddd-89d3-c63bb4690ee5",
+        "7d4c1602-486a-4f8d-be98-c7d851067714",
+        "325f95a7-0c08-4443-87a5-1ef7b3cb2454",
+        "325f95a7-0c08-4443-87a5-1ef7b3cb2454",
+        "7d4c1602-486a-4f8d-be98-c7d851067714",
+        "33639b2e-4fc9-4054-8373-d4ae15107346",
+        "c5dfa9d2-87f1-4bed-964d-dafed65c3c14",
+        "dc62a05b-7459-4e53-9320-4611acf3a321"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "dc62a05b-7459-4e53-9320-4611acf3a321",
+            "7b61e8b8-0191-4ddd-89d3-c63bb4690ee5"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8948257386684418
+        },
+        {
+          "eids": [
+            "7d4c1602-486a-4f8d-be98-c7d851067714",
+            "325f95a7-0c08-4443-87a5-1ef7b3cb2454"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8785352259874344
+        },
+        {
+          "eids": [
+            "325f95a7-0c08-4443-87a5-1ef7b3cb2454",
+            "7d4c1602-486a-4f8d-be98-c7d851067714"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8785352259874344
+        },
+        {
+          "eids": [
+            "33639b2e-4fc9-4054-8373-d4ae15107346",
+            "c5dfa9d2-87f1-4bed-964d-dafed65c3c14"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8498661175370217
+        },
+        {
+          "eids": [
+            "dc62a05b-7459-4e53-9320-4611acf3a321"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8198257386684418
+        }
+      ]
+    },
+    "stress_037": {
+      "source_sample_idx": 6,
+      "type": "chain_modification",
+      "question": "What has James's game-development project become?",
+      "current_valid_answer": "He ended up releasing his first game inspired by Witcher 3.",
+      "outdated_answer": "It was still only a collaborative virtual-world idea.",
+      "prediction": "a project combining gaming and storytelling",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "d789da9e-448c-458e-9b01-497a2d0f0007",
+        "1f647f66-0a5e-4d3a-9663-21a2c87cf971",
+        "d789da9e-448c-458e-9b01-497a2d0f0007",
+        "ae50743f-6319-42bb-9572-00d8c3b766ed",
+        "f74fe920-f652-4c69-87bd-3f0149aa17d0",
+        "42125fa6-7c67-4251-8169-6644691c6cc9",
+        "8c5c9a32-60e6-4b1f-8ee5-d88f44349331",
+        "e042887f-9c5d-40a8-bcc7-be7691a47853",
+        "f74fe920-f652-4c69-87bd-3f0149aa17d0",
+        "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "d789da9e-448c-458e-9b01-497a2d0f0007",
+            "1f647f66-0a5e-4d3a-9663-21a2c87cf971"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8945322677493096
+        },
+        {
+          "eids": [
+            "d789da9e-448c-458e-9b01-497a2d0f0007",
+            "ae50743f-6319-42bb-9572-00d8c3b766ed"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8945322677493096
+        },
+        {
+          "eids": [
+            "f74fe920-f652-4c69-87bd-3f0149aa17d0",
+            "42125fa6-7c67-4251-8169-6644691c6cc9"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8921566903591156
+        },
+        {
+          "eids": [
+            "8c5c9a32-60e6-4b1f-8ee5-d88f44349331",
+            "e042887f-9c5d-40a8-bcc7-be7691a47853"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8821096003055573
+        },
+        {
+          "eids": [
+            "f74fe920-f652-4c69-87bd-3f0149aa17d0",
+            "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.837069034576416
+        }
+      ]
+    },
+    "stress_039": {
+      "source_sample_idx": 6,
+      "type": "chain_modification",
+      "question": "What programming work has John been doing?",
+      "current_valid_answer": "He was working with a game developer on an online board game.",
+      "outdated_answer": "He was only freelancing on a website for a local business.",
+      "prediction": "helping younger siblings with programming, volunteering for a charitable foundation, enrolled in a programming class",
+      "f1_valid": 0.16666666666666669,
+      "path_eids": [
+        "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f",
+        "db815054-3a15-4150-9d44-f5e93b264ab2",
+        "db815054-3a15-4150-9d44-f5e93b264ab2",
+        "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f",
+        "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f",
+        "db815054-3a15-4150-9d44-f5e93b264ab2",
+        "10ee78ba-99d4-4f8f-885f-e62a187ea3a9",
+        "db815054-3a15-4150-9d44-f5e93b264ab2",
+        "10ee78ba-99d4-4f8f-885f-e62a187ea3a9",
+        "c526229c-e251-49e1-ab90-0c36ebda63f9",
+        "56c5bba4-a892-4062-8e16-4f197c4325ae"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f",
+            "db815054-3a15-4150-9d44-f5e93b264ab2"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8762630283832551
+        },
+        {
+          "eids": [
+            "db815054-3a15-4150-9d44-f5e93b264ab2",
+            "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8762630283832551
+        },
+        {
+          "eids": [
+            "7feff9a3-82bd-4c4b-a7d0-3d89cbe7855f",
+            "db815054-3a15-4150-9d44-f5e93b264ab2",
+            "10ee78ba-99d4-4f8f-885f-e62a187ea3a9"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_after"
+          ],
+          "score": 0.8762630283832551
+        },
+        {
+          "eids": [
+            "db815054-3a15-4150-9d44-f5e93b264ab2",
+            "10ee78ba-99d4-4f8f-885f-e62a187ea3a9"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8667157351970673
+        },
+        {
+          "eids": [
+            "c526229c-e251-49e1-ab90-0c36ebda63f9",
+            "56c5bba4-a892-4062-8e16-4f197c4325ae"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8630102306604386
+        }
+      ]
+    },
+    "stress_036": {
+      "source_sample_idx": 6,
+      "type": "fact_override",
+      "question": "What kind of work was John doing after leaving his IT job?",
+      "current_valid_answer": "He was a programming mentor at a game-dev non-profit.",
+      "outdated_answer": "Working in his old IT job.",
+      "prediction": "organizing tournaments for computer games",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+        "61b79791-78b1-4397-871a-52cdd93ebf0a",
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+        "caa59b87-0884-41e7-a44f-c8786ffcc2c4",
+        "c1ac8285-1df4-4c8e-8873-2c241f6fea1a",
+        "23cce87a-64f8-4fb0-951d-c55aca302cfe",
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+        "5c4e79aa-bd8b-4df6-a7c2-821276c02925",
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+        "5c1f30ef-9ec2-495d-af94-f18d97c10c25"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+            "61b79791-78b1-4397-871a-52cdd93ebf0a"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8615849539637566
+        },
+        {
+          "eids": [
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+            "caa59b87-0884-41e7-a44f-c8786ffcc2c4"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8560726046562195
+        },
+        {
+          "eids": [
+            "c1ac8285-1df4-4c8e-8873-2c241f6fea1a",
+            "23cce87a-64f8-4fb0-951d-c55aca302cfe"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8499632820487023
+        },
+        {
+          "eids": [
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+            "5c4e79aa-bd8b-4df6-a7c2-821276c02925"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8354486003518105
+        },
+        {
+          "eids": [
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+            "5c1f30ef-9ec2-495d-af94-f18d97c10c25"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8260611779987812
+        }
+      ]
+    },
+    "stress_038": {
+      "source_sample_idx": 6,
+      "type": "fact_override",
+      "question": "Which dogs was James talking about by mid-June 2022?",
+      "current_valid_answer": "Max, Daisy, and Ned.",
+      "outdated_answer": "Only Ned.",
+      "prediction": "Max, Daisy, Ned",
+      "f1_valid": 0.8571428571428571,
+      "path_eids": [
+        "28520c32-d1e0-4196-89cd-cb127b6313fb",
+        "707fa2d5-99c1-4eba-821f-aba8519b7de9",
+        "10ee78ba-99d4-4f8f-885f-e62a187ea3a9",
+        "db815054-3a15-4150-9d44-f5e93b264ab2",
+        "28520c32-d1e0-4196-89cd-cb127b6313fb",
+        "28520c32-d1e0-4196-89cd-cb127b6313fb",
+        "3873639d-8411-408d-9df5-7099f1d25fd3",
+        "2c52a17a-c87b-462e-8cb0-e39a390f5117"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "28520c32-d1e0-4196-89cd-cb127b6313fb",
+            "707fa2d5-99c1-4eba-821f-aba8519b7de9"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8756068915128709
+        },
+        {
+          "eids": [
+            "10ee78ba-99d4-4f8f-885f-e62a187ea3a9",
+            "db815054-3a15-4150-9d44-f5e93b264ab2"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8111752524971962
+        },
+        {
+          "eids": [
+            "28520c32-d1e0-4196-89cd-cb127b6313fb"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7977974861860275
+        },
+        {
+          "eids": [
+            "28520c32-d1e0-4196-89cd-cb127b6313fb"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7977974861860275
+        },
+        {
+          "eids": [
+            "3873639d-8411-408d-9df5-7099f1d25fd3",
+            "2c52a17a-c87b-462e-8cb0-e39a390f5117"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.7534948229789734
+        }
+      ]
+    },
+    "stress_055": {
+      "source_sample_idx": 6,
+      "type": "contradiction_resolution",
+      "question": "What does James prioritize: team success or personal improvement?",
+      "current_valid_answer": "He shifted to emphasizing personal improvement.",
+      "outdated_answer": "He prioritized team success over personal ego.",
+      "prediction": "team success",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "6c4780db-293c-4326-8f67-c07e30191fa4",
+        "b1f9b844-5162-4194-9dbc-c5a878032009",
+        "e9830962-e616-4d37-a923-9eb8b42f2424",
+        "a0fcdbab-d305-49f7-88f4-baa90b4bd68d",
+        "ebe6f47c-5c59-46c1-8886-f959ed5917b1",
+        "d204d7ca-e265-470d-a52f-4b6d6014de2a",
+        "ae50743f-6319-42bb-9572-00d8c3b766ed",
+        "d789da9e-448c-458e-9b01-497a2d0f0007",
+        "ae50743f-6319-42bb-9572-00d8c3b766ed",
+        "41813225-d9ce-433d-bf29-ea6d45f6a892"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "6c4780db-293c-4326-8f67-c07e30191fa4",
+            "b1f9b844-5162-4194-9dbc-c5a878032009"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8019930675625802
+        },
+        {
+          "eids": [
+            "e9830962-e616-4d37-a923-9eb8b42f2424",
+            "a0fcdbab-d305-49f7-88f4-baa90b4bd68d"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6248834356665611
+        },
+        {
+          "eids": [
+            "ebe6f47c-5c59-46c1-8886-f959ed5917b1",
+            "d204d7ca-e265-470d-a52f-4b6d6014de2a"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6221075370907784
+        },
+        {
+          "eids": [
+            "ae50743f-6319-42bb-9572-00d8c3b766ed",
+            "d789da9e-448c-458e-9b01-497a2d0f0007"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.6206847913563251
+        },
+        {
+          "eids": [
+            "ae50743f-6319-42bb-9572-00d8c3b766ed",
+            "41813225-d9ce-433d-bf29-ea6d45f6a892"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6206847913563251
+        }
+      ]
+    },
+    "stress_040": {
+      "source_sample_idx": 6,
+      "type": "chain_modification",
+      "question": "What has John done with gaming for charity?",
+      "current_valid_answer": "He organized a fundraising gaming tournament for a children's hospital.",
+      "outdated_answer": "He had only been talking about more general charity tournaments and donations.",
+      "prediction": "Organized gaming tournaments for charities",
+      "f1_valid": 0.42857142857142855,
+      "path_eids": [
+        "2b13c4ca-0202-4c4a-bd0b-c3a8fa9c37cd",
+        "cc623531-44b7-4436-a447-347b258f64ad",
+        "2b13c4ca-0202-4c4a-bd0b-c3a8fa9c37cd",
+        "2b13c4ca-0202-4c4a-bd0b-c3a8fa9c37cd",
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+        "5c1f30ef-9ec2-495d-af94-f18d97c10c25",
+        "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+        "6a020908-498f-491b-9ac9-3335ff631df8"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "2b13c4ca-0202-4c4a-bd0b-c3a8fa9c37cd",
+            "cc623531-44b7-4436-a447-347b258f64ad"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8782890319824219
+        },
+        {
+          "eids": [
+            "2b13c4ca-0202-4c4a-bd0b-c3a8fa9c37cd"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8282890319824219
+        },
+        {
+          "eids": [
+            "2b13c4ca-0202-4c4a-bd0b-c3a8fa9c37cd"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8282890319824219
+        },
+        {
+          "eids": [
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+            "5c1f30ef-9ec2-495d-af94-f18d97c10c25"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8241057187318802
+        },
+        {
+          "eids": [
+            "3e1d2faf-cbc5-4024-b8d8-71c7626c2072",
+            "6a020908-498f-491b-9ac9-3335ff631df8"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8241057187318802
+        }
+      ]
+    },
+    "stress_044": {
+      "source_sample_idx": 7,
+      "type": "temporal_correction",
+      "question": "When is Deborah and Jolene's coffee date scheduled?",
+      "current_valid_answer": "Friday at 5.",
+      "outdated_answer": "Wednesday at 4.",
+      "prediction": "11 September 2023",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "8174987e-93b9-4c47-a99e-20a4cedd3d14",
+        "c32c0362-1e4e-43fd-9f92-bd051c7c2c7f",
+        "c32c0362-1e4e-43fd-9f92-bd051c7c2c7f",
+        "8174987e-93b9-4c47-a99e-20a4cedd3d14",
+        "b9a2afad-9f92-45ca-bbfb-61a135eb0a3c",
+        "f07853cc-7af3-42e4-8c90-4b82159c351d",
+        "f07853cc-7af3-42e4-8c90-4b82159c351d",
+        "b9a2afad-9f92-45ca-bbfb-61a135eb0a3c",
+        "8174987e-93b9-4c47-a99e-20a4cedd3d14",
+        "0f1d5e81-f407-4229-8cdb-02ddb9c80464"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "8174987e-93b9-4c47-a99e-20a4cedd3d14",
+            "c32c0362-1e4e-43fd-9f92-bd051c7c2c7f"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9463058531284333
+        },
+        {
+          "eids": [
+            "c32c0362-1e4e-43fd-9f92-bd051c7c2c7f",
+            "8174987e-93b9-4c47-a99e-20a4cedd3d14"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9463058531284333
+        },
+        {
+          "eids": [
+            "b9a2afad-9f92-45ca-bbfb-61a135eb0a3c",
+            "f07853cc-7af3-42e4-8c90-4b82159c351d"
+          ],
+          "edge_types": [
+            "prevents"
+          ],
+          "score": 0.9370496928691864
+        },
+        {
+          "eids": [
+            "f07853cc-7af3-42e4-8c90-4b82159c351d",
+            "b9a2afad-9f92-45ca-bbfb-61a135eb0a3c"
+          ],
+          "edge_types": [
+            "prevents"
+          ],
+          "score": 0.9370496928691864
+        },
+        {
+          "eids": [
+            "8174987e-93b9-4c47-a99e-20a4cedd3d14",
+            "0f1d5e81-f407-4229-8cdb-02ddb9c80464"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9213058531284333
+        }
+      ]
+    },
+    "stress_045": {
+      "source_sample_idx": 7,
+      "type": "fact_override",
+      "question": "Where did Jolene actually go for her meditation retreat?",
+      "current_valid_answer": "Phuket.",
+      "outdated_answer": "The planned lake retreat.",
+      "prediction": "Phuket",
+      "f1_valid": 1.0,
+      "path_eids": [
+        "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+        "f26de5f4-eb70-4337-907b-6a93a6767b88",
+        "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+        "f26de5f4-eb70-4337-907b-6a93a6767b88",
+        "5d83f96a-7cef-44eb-9088-020127c18cca",
+        "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+        "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+        "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+        "f26de5f4-eb70-4337-907b-6a93a6767b88"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+            "f26de5f4-eb70-4337-907b-6a93a6767b88"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.877477066218853
+        },
+        {
+          "eids": [
+            "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+            "f26de5f4-eb70-4337-907b-6a93a6767b88",
+            "5d83f96a-7cef-44eb-9088-020127c18cca"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "causes"
+          ],
+          "score": 0.8437270662188531
+        },
+        {
+          "eids": [
+            "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8274770662188531
+        },
+        {
+          "eids": [
+            "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8274770662188531
+        },
+        {
+          "eids": [
+            "7d03b4c2-b96f-4e4f-98f9-16c3e63786d0",
+            "f26de5f4-eb70-4337-907b-6a93a6767b88"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "session_link"
+          ],
+          "score": 0.809977066218853
+        }
+      ]
+    },
+    "stress_043": {
+      "source_sample_idx": 7,
+      "type": "contradiction_resolution",
+      "question": "What happened to Deborah's later yoga-getaway plan after the successful retreat?",
+      "current_valid_answer": "That later getaway was canceled because of a storm.",
+      "outdated_answer": "It was still going ahead like the earlier retreat.",
+      "prediction": "No later getaway plan mentioned",
+      "f1_valid": 0.2857142857142857,
+      "path_eids": [
+        "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "39df3d79-bf5c-4f55-9eaf-c2ec69e5bc63",
+        "ba814f60-ce2b-4acd-8b83-022298f7b327",
+        "b944878f-cf27-4319-a703-fe2af87a2512",
+        "8063c1ea-0e78-40f4-b4e3-bd8b9720a97b",
+        "39df3d79-bf5c-4f55-9eaf-c2ec69e5bc63",
+        "ba814f60-ce2b-4acd-8b83-022298f7b327",
+        "e44c879d-70a0-403a-95b4-c7f817d73f43",
+        "39df3d79-bf5c-4f55-9eaf-c2ec69e5bc63",
+        "c64c79d6-8297-4a50-8fd6-24d8b93469e8"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.986931535601616
+        },
+        {
+          "eids": [
+            "39df3d79-bf5c-4f55-9eaf-c2ec69e5bc63",
+            "ba814f60-ce2b-4acd-8b83-022298f7b327"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9722283363342286
+        },
+        {
+          "eids": [
+            "b944878f-cf27-4319-a703-fe2af87a2512",
+            "8063c1ea-0e78-40f4-b4e3-bd8b9720a97b"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9702496498823167
+        },
+        {
+          "eids": [
+            "39df3d79-bf5c-4f55-9eaf-c2ec69e5bc63",
+            "ba814f60-ce2b-4acd-8b83-022298f7b327",
+            "e44c879d-70a0-403a-95b4-c7f817d73f43"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_before"
+          ],
+          "score": 0.9497283363342286
+        },
+        {
+          "eids": [
+            "39df3d79-bf5c-4f55-9eaf-c2ec69e5bc63",
+            "c64c79d6-8297-4a50-8fd6-24d8b93469e8"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9472283363342285
+        }
+      ]
+    },
+    "stress_047": {
+      "source_sample_idx": 7,
+      "type": "chain_modification",
+      "question": "What engineering milestone had Jolene reached by June 2023?",
+      "current_valid_answer": "She had completed a tough engineering project and hit a major milestone.",
+      "outdated_answer": "She was still in the earlier robotics-project stage.",
+      "prediction": "major breakthrough in engineering project",
+      "f1_valid": 0.37499999999999994,
+      "path_eids": [
+        "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+        "87f43c9f-09a6-44bb-a2d8-f930d2866173",
+        "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+        "f0cd8943-a753-4006-a3c1-8cd73b6546c4",
+        "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+        "bed487b1-c40d-4573-9365-156a5f48cf1b",
+        "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+        "87f43c9f-09a6-44bb-a2d8-f930d2866173",
+        "9e5bbec7-ff30-463a-96cb-94c1d2be3222",
+        "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+        "87f43c9f-09a6-44bb-a2d8-f930d2866173",
+        "4f30b47f-a8d3-45a1-9ec6-04f3249ca74d"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+            "87f43c9f-09a6-44bb-a2d8-f930d2866173"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 1.0039142429828645
+        },
+        {
+          "eids": [
+            "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+            "f0cd8943-a753-4006-a3c1-8cd73b6546c4"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 1.0039142429828645
+        },
+        {
+          "eids": [
+            "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+            "bed487b1-c40d-4573-9365-156a5f48cf1b"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 1.0039142429828645
+        },
+        {
+          "eids": [
+            "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+            "87f43c9f-09a6-44bb-a2d8-f930d2866173",
+            "9e5bbec7-ff30-463a-96cb-94c1d2be3222"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_after"
+          ],
+          "score": 1.0039142429828645
+        },
+        {
+          "eids": [
+            "4f9112cb-82c8-47e7-a8d3-24762f768b7d",
+            "87f43c9f-09a6-44bb-a2d8-f930d2866173",
+            "4f30b47f-a8d3-45a1-9ec6-04f3249ca74d"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "temporal_after"
+          ],
+          "score": 1.0039142429828645
+        }
+      ]
+    },
+    "stress_048": {
+      "source_sample_idx": 7,
+      "type": "temporal_correction",
+      "question": "Has Jolene's meditation retreat happened yet?",
+      "current_valid_answer": "It had already happened; she had gone on the meditation retreat in Phuket.",
+      "outdated_answer": "It was still just the upcoming lake-retreat course she had signed up for.",
+      "prediction": "Yes, it happened on 12 September 2023.",
+      "f1_valid": 0.2105263157894737,
+      "path_eids": [
+        "8063c1ea-0e78-40f4-b4e3-bd8b9720a97b",
+        "db794cef-f87c-436f-9d06-f48365c76e76",
+        "11594487-b294-4698-ae9f-c616a58ba78b",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "023cc8ae-9ee4-4ae4-b100-9b937f9464c3",
+        "11594487-b294-4698-ae9f-c616a58ba78b",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "11594487-b294-4698-ae9f-c616a58ba78b",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+        "11594487-b294-4698-ae9f-c616a58ba78b",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "c70bf95e-888c-42b5-9da7-b8cfc39aece4"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "8063c1ea-0e78-40f4-b4e3-bd8b9720a97b",
+            "db794cef-f87c-436f-9d06-f48365c76e76"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.6128015596419573
+        },
+        {
+          "eids": [
+            "11594487-b294-4698-ae9f-c616a58ba78b",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+            "023cc8ae-9ee4-4ae4-b100-9b937f9464c3"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.611782344430685
+        },
+        {
+          "eids": [
+            "11594487-b294-4698-ae9f-c616a58ba78b",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.5912989628501236
+        },
+        {
+          "eids": [
+            "11594487-b294-4698-ae9f-c616a58ba78b",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+            "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.5912989628501236
+        },
+        {
+          "eids": [
+            "11594487-b294-4698-ae9f-c616a58ba78b",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+            "c70bf95e-888c-42b5-9da7-b8cfc39aece4"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.5912989628501236
+        }
+      ]
+    },
+    "stress_046": {
+      "source_sample_idx": 7,
+      "type": "fact_override",
+      "question": "How had Deborah's yoga work evolved by mid-August 2023?",
+      "current_valid_answer": "She was organizing yoga events and teaching yoga.",
+      "outdated_answer": "She was only starting a neighborhood yoga class.",
+      "prediction": "Hosting yoga classes for neighbors and attending a yoga retreat",
+      "f1_valid": 0.25,
+      "path_eids": [
+        "fe94f710-6f5a-47c5-b823-f75d475c75f3",
+        "2c91d138-d29f-445a-86b9-ef9c8ce15409",
+        "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "aae20db3-735b-49e9-80a4-353b2835b5dd",
+        "b978c935-c06f-44f0-bc6b-5f489d3564a4",
+        "aae20db3-735b-49e9-80a4-353b2835b5dd",
+        "fe94f710-6f5a-47c5-b823-f75d475c75f3",
+        "fe94f710-6f5a-47c5-b823-f75d475c75f3",
+        "aae20db3-735b-49e9-80a4-353b2835b5dd"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "fe94f710-6f5a-47c5-b823-f75d475c75f3",
+            "2c91d138-d29f-445a-86b9-ef9c8ce15409"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9402230203151704
+        },
+        {
+          "eids": [
+            "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9382826715707779
+        },
+        {
+          "eids": [
+            "aae20db3-735b-49e9-80a4-353b2835b5dd",
+            "b978c935-c06f-44f0-bc6b-5f489d3564a4"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9231090009212495
+        },
+        {
+          "eids": [
+            "aae20db3-735b-49e9-80a4-353b2835b5dd",
+            "fe94f710-6f5a-47c5-b823-f75d475c75f3"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9177593171596528
+        },
+        {
+          "eids": [
+            "fe94f710-6f5a-47c5-b823-f75d475c75f3",
+            "aae20db3-735b-49e9-80a4-353b2835b5dd"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9177593171596528
+        }
+      ]
+    },
+    "stress_042": {
+      "source_sample_idx": 7,
+      "type": "chain_modification",
+      "question": "What happened with Deborah's yoga retreat plans by late August 2023?",
+      "current_valid_answer": "She had already gone on the retreat and said it changed her perspective on life.",
+      "outdated_answer": "She was still only preparing for the retreat.",
+      "prediction": "Canceled due to a storm",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "1e4076f3-653c-49b6-b8f6-c958c6fe37e6",
+        "6f473c7d-7e81-485a-b337-2f77cdbd4fa2",
+        "1e4076f3-653c-49b6-b8f6-c958c6fe37e6",
+        "1e4076f3-653c-49b6-b8f6-c958c6fe37e6",
+        "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+        "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+        "c70bf95e-888c-42b5-9da7-b8cfc39aece4"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "1e4076f3-653c-49b6-b8f6-c958c6fe37e6",
+            "6f473c7d-7e81-485a-b337-2f77cdbd4fa2"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8344721525907517
+        },
+        {
+          "eids": [
+            "1e4076f3-653c-49b6-b8f6-c958c6fe37e6"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7594721525907516
+        },
+        {
+          "eids": [
+            "1e4076f3-653c-49b6-b8f6-c958c6fe37e6"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7594721525907516
+        },
+        {
+          "eids": [
+            "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.6412361461669207
+        },
+        {
+          "eids": [
+            "e7884e1b-3d6e-4e17-9f64-a8d2fa61b728",
+            "9f2fdf3c-5cd5-4233-af51-f85adfec2136",
+            "c70bf95e-888c-42b5-9da7-b8cfc39aece4"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.6412361461669207
+        }
+      ]
+    },
+    "stress_057": {
+      "source_sample_idx": 8,
+      "type": "contradiction_resolution",
+      "question": "Is Evan consistent in his approach to healthy eating?",
+      "current_valid_answer": "No. He started a diet limiting himself to two ginger snaps a day after praising cookies.",
+      "outdated_answer": "He expressed a preference for eating healthier.",
+      "prediction": "consistent",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "c9abfaad-ad4c-49a5-943f-31310432c958",
+        "b30c4699-23af-41bd-8d87-032142cd9999",
+        "c9abfaad-ad4c-49a5-943f-31310432c958",
+        "536d95a0-2578-41b7-9a69-0a05d0ec488f",
+        "227cf950-01cb-4f29-ba1a-234446c8424b",
+        "0f8dd8a0-4528-4e24-b000-0ff7c47b3176",
+        "8c375007-f219-4291-821a-4077f42e16d6",
+        "8c375007-f219-4291-821a-4077f42e16d6"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "c9abfaad-ad4c-49a5-943f-31310432c958",
+            "b30c4699-23af-41bd-8d87-032142cd9999"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9293749958276749
+        },
+        {
+          "eids": [
+            "c9abfaad-ad4c-49a5-943f-31310432c958",
+            "536d95a0-2578-41b7-9a69-0a05d0ec488f"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.9293749958276749
+        },
+        {
+          "eids": [
+            "227cf950-01cb-4f29-ba1a-234446c8424b",
+            "0f8dd8a0-4528-4e24-b000-0ff7c47b3176"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.9095257639884949
+        },
+        {
+          "eids": [
+            "8c375007-f219-4291-821a-4077f42e16d6"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8836143463850021
+        },
+        {
+          "eids": [
+            "8c375007-f219-4291-821a-4077f42e16d6"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8836143463850021
+        }
+      ]
+    },
+    "stress_049": {
+      "source_sample_idx": 8,
+      "type": "fact_override",
+      "question": "What was Evan's relationship status by late December 2023?",
+      "current_valid_answer": "He was married to the woman from Canada.",
+      "outdated_answer": "She was only his new partner.",
+      "prediction": "married",
+      "f1_valid": 0.2222222222222222,
+      "path_eids": [
+        "3ec4b43a-76ab-438d-9fb3-60f8b5d31ca1",
+        "342148f2-89ad-43a0-b605-738f502f9f20",
+        "e41bc18e-2530-42e9-a407-78693f80fb4f",
+        "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+        "e41bc18e-2530-42e9-a407-78693f80fb4f",
+        "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+        "fae830aa-960e-4744-ac63-eb9973b896d2",
+        "e41bc18e-2530-42e9-a407-78693f80fb4f",
+        "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+        "8ba57a09-41b8-4948-a215-e939298a13b3",
+        "e41bc18e-2530-42e9-a407-78693f80fb4f",
+        "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+        "8dbf935f-fd92-48f1-8797-7ce5e4031694"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "3ec4b43a-76ab-438d-9fb3-60f8b5d31ca1",
+            "342148f2-89ad-43a0-b605-738f502f9f20"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.950369679927826
+        },
+        {
+          "eids": [
+            "e41bc18e-2530-42e9-a407-78693f80fb4f",
+            "43bb566c-43de-41e1-9f12-ba0cda1a64a4"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.940951493382454
+        },
+        {
+          "eids": [
+            "e41bc18e-2530-42e9-a407-78693f80fb4f",
+            "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+            "fae830aa-960e-4744-ac63-eb9973b896d2"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.940951493382454
+        },
+        {
+          "eids": [
+            "e41bc18e-2530-42e9-a407-78693f80fb4f",
+            "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+            "8ba57a09-41b8-4948-a215-e939298a13b3"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.940951493382454
+        },
+        {
+          "eids": [
+            "e41bc18e-2530-42e9-a407-78693f80fb4f",
+            "43bb566c-43de-41e1-9f12-ba0cda1a64a4",
+            "8dbf935f-fd92-48f1-8797-7ce5e4031694"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.940951493382454
+        }
+      ]
+    },
+    "stress_051": {
+      "source_sample_idx": 8,
+      "type": "chain_modification",
+      "question": "What role had Sam taken on after his own weight-loss and health changes?",
+      "current_valid_answer": "He became a Weight Watchers coach.",
+      "outdated_answer": "He was only trying to improve his diet and exercise routine for himself.",
+      "prediction": "Weight Watchers coach",
+      "f1_valid": 0.6666666666666666,
+      "path_eids": [
+        "bb318d60-803f-4f9d-8055-ea0540675222",
+        "5ed8a033-e634-42e5-8539-7cb4ee2d74bc",
+        "bb318d60-803f-4f9d-8055-ea0540675222",
+        "2df62503-f8a6-4d8e-9256-96bc274c1ae8",
+        "00afab4c-3d47-4ea5-894b-ca9ad9d571b2",
+        "00afab4c-3d47-4ea5-894b-ca9ad9d571b2",
+        "7f72c555-06d8-416a-aad7-2b317c0b9731",
+        "8bdb671b-11e1-4353-a948-2793fd6b4973"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "bb318d60-803f-4f9d-8055-ea0540675222",
+            "5ed8a033-e634-42e5-8539-7cb4ee2d74bc"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9119959726929665
+        },
+        {
+          "eids": [
+            "bb318d60-803f-4f9d-8055-ea0540675222",
+            "2df62503-f8a6-4d8e-9256-96bc274c1ae8"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.8869959726929665
+        },
+        {
+          "eids": [
+            "00afab4c-3d47-4ea5-894b-ca9ad9d571b2"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8587297827005387
+        },
+        {
+          "eids": [
+            "00afab4c-3d47-4ea5-894b-ca9ad9d571b2"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8587297827005387
+        },
+        {
+          "eids": [
+            "7f72c555-06d8-416a-aad7-2b317c0b9731",
+            "8bdb671b-11e1-4353-a948-2793fd6b4973"
+          ],
+          "edge_types": [
+            "causes"
+          ],
+          "score": 0.8442889779806138
+        }
+      ]
+    },
+    "stress_050": {
+      "source_sample_idx": 8,
+      "type": "chain_modification",
+      "question": "How did Evan's relationship with the woman he met in Canada develop?",
+      "current_valid_answer": "It progressed from a new relationship to pregnancy news and then marriage.",
+      "outdated_answer": "It was still just an exciting new romance.",
+      "prediction": "Evan expressed love at first sight, got married, and plans a honeymoon in Canada",
+      "f1_valid": 0.15384615384615383,
+      "path_eids": [
+        "f173a57b-2b07-4d01-9b46-3b978fcf72b3",
+        "ae60d1a5-7c97-46fa-b4d2-2afb203f2d7c",
+        "17eb7657-926a-4c27-921e-4863dacb38cb",
+        "17eb7657-926a-4c27-921e-4863dacb38cb",
+        "f173a57b-2b07-4d01-9b46-3b978fcf72b3",
+        "c3bc0ac7-8ffe-4365-abcb-c8f05043cf27",
+        "f173a57b-2b07-4d01-9b46-3b978fcf72b3",
+        "c3bc0ac7-8ffe-4365-abcb-c8f05043cf27",
+        "1800903e-7ab5-4fc5-912d-47d9d031b093"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "f173a57b-2b07-4d01-9b46-3b978fcf72b3",
+            "ae60d1a5-7c97-46fa-b4d2-2afb203f2d7c"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.947626805305481
+        },
+        {
+          "eids": [
+            "17eb7657-926a-4c27-921e-4863dacb38cb"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9242750734090805
+        },
+        {
+          "eids": [
+            "17eb7657-926a-4c27-921e-4863dacb38cb"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.9242750734090805
+        },
+        {
+          "eids": [
+            "f173a57b-2b07-4d01-9b46-3b978fcf72b3",
+            "c3bc0ac7-8ffe-4365-abcb-c8f05043cf27"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.922626805305481
+        },
+        {
+          "eids": [
+            "f173a57b-2b07-4d01-9b46-3b978fcf72b3",
+            "c3bc0ac7-8ffe-4365-abcb-c8f05043cf27",
+            "1800903e-7ab5-4fc5-912d-47d9d031b093"
+          ],
+          "edge_types": [
+            "updates",
+            "temporal_before"
+          ],
+          "score": 0.922626805305481
+        }
+      ]
+    },
+    "stress_052": {
+      "source_sample_idx": 8,
+      "type": "contradiction_resolution",
+      "question": "What outdoor activity has Sam been doing?",
+      "current_valid_answer": "He went on a hiking trip.",
+      "outdated_answer": "He had not hiked in ages.",
+      "prediction": "kayaking",
+      "f1_valid": 0.0,
+      "path_eids": [
+        "0bff2c02-a2b9-49f3-8923-71a34827ad67",
+        "4bc0deae-43a4-4e93-afa7-67be14303310",
+        "ea912781-aaa8-48cc-871c-8a6d55313076",
+        "ea912781-aaa8-48cc-871c-8a6d55313076",
+        "0bff2c02-a2b9-49f3-8923-71a34827ad67",
+        "0bff2c02-a2b9-49f3-8923-71a34827ad67"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "0bff2c02-a2b9-49f3-8923-71a34827ad67",
+            "4bc0deae-43a4-4e93-afa7-67be14303310"
+          ],
+          "edge_types": [
+            "updates"
+          ],
+          "score": 0.8324767902493477
+        },
+        {
+          "eids": [
+            "ea912781-aaa8-48cc-871c-8a6d55313076"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8111881628632546
+        },
+        {
+          "eids": [
+            "ea912781-aaa8-48cc-871c-8a6d55313076"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.8111881628632546
+        },
+        {
+          "eids": [
+            "0bff2c02-a2b9-49f3-8923-71a34827ad67"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7737062051892281
+        },
+        {
+          "eids": [
+            "0bff2c02-a2b9-49f3-8923-71a34827ad67"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7737062051892281
+        }
+      ]
+    },
+    "stress_053": {
+      "source_sample_idx": 9,
+      "type": "temporal_correction",
+      "question": "By late October 2023, had Calvin's Boston trip already happened or was it still only planned?",
+      "current_valid_answer": "It had already happened; he had spent time sightseeing in Boston with a high-school friend.",
+      "outdated_answer": "It was still just an upcoming trip he planned after the tour.",
+      "prediction": "already happened",
+      "f1_valid": 0.125,
+      "path_eids": [
+        "45ec7a31-e083-493b-a02f-a506f70cd6b2",
+        "ed80ba76-d604-4383-98f4-a98065cc22c0",
+        "45ec7a31-e083-493b-a02f-a506f70cd6b2",
+        "70881178-6950-462f-a4fd-78c9e427ef52",
+        "45ec7a31-e083-493b-a02f-a506f70cd6b2",
+        "70881178-6950-462f-a4fd-78c9e427ef52",
+        "b4b83056-e6c5-4bf7-b0af-5b79be6f6696",
+        "4d62b257-82ca-43ac-827b-bb02c6a9979c",
+        "6553dfde-a1ac-44de-ac10-49d13c4aebf5",
+        "e8b17315-c49c-4097-af31-4e50b6287814",
+        "29402604-4599-4100-a0ef-683e252d7414"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "45ec7a31-e083-493b-a02f-a506f70cd6b2",
+            "ed80ba76-d604-4383-98f4-a98065cc22c0"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 1.0101969450712205
+        },
+        {
+          "eids": [
+            "45ec7a31-e083-493b-a02f-a506f70cd6b2",
+            "70881178-6950-462f-a4fd-78c9e427ef52"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 1.0101969450712205
+        },
+        {
+          "eids": [
+            "45ec7a31-e083-493b-a02f-a506f70cd6b2",
+            "70881178-6950-462f-a4fd-78c9e427ef52",
+            "b4b83056-e6c5-4bf7-b0af-5b79be6f6696"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_after"
+          ],
+          "score": 1.0101969450712205
+        },
+        {
+          "eids": [
+            "4d62b257-82ca-43ac-827b-bb02c6a9979c",
+            "6553dfde-a1ac-44de-ac10-49d13c4aebf5"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.9747652292251587
+        },
+        {
+          "eids": [
+            "e8b17315-c49c-4097-af31-4e50b6287814",
+            "29402604-4599-4100-a0ef-683e252d7414"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.9687363415956498
+        }
+      ]
+    },
+    "stress_054": {
+      "source_sample_idx": 9,
+      "type": "contradiction_resolution",
+      "question": "By the time Calvin described the Frank Ocean tour, was Tokyo still a future stop?",
+      "current_valid_answer": "No. He said the Tokyo performance had already happened the previous week.",
+      "outdated_answer": "Yes. It was still only the 'next month' Tokyo plan from earlier.",
+      "prediction": "Tokyo was not a future stop",
+      "f1_valid": 0.11764705882352942,
+      "path_eids": [
+        "990b640b-83a7-4435-9617-3c916ef89a37",
+        "3000464e-fda4-489f-b7ce-72a1acf67a81",
+        "90e1259c-c6f5-41bd-b169-f0fc6979fb47",
+        "78edda42-175b-4fd0-885c-c8c2e5ed2d0b",
+        "c276f3ec-fc82-4da4-8a77-356df1b80b61",
+        "90e1259c-c6f5-41bd-b169-f0fc6979fb47",
+        "3000464e-fda4-489f-b7ce-72a1acf67a81",
+        "78edda42-175b-4fd0-885c-c8c2e5ed2d0b",
+        "78edda42-175b-4fd0-885c-c8c2e5ed2d0b"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "990b640b-83a7-4435-9617-3c916ef89a37",
+            "3000464e-fda4-489f-b7ce-72a1acf67a81",
+            "90e1259c-c6f5-41bd-b169-f0fc6979fb47"
+          ],
+          "edge_types": [
+            "temporal_after",
+            "temporal_before"
+          ],
+          "score": 0.8535035058856011
+        },
+        {
+          "eids": [
+            "78edda42-175b-4fd0-885c-c8c2e5ed2d0b",
+            "c276f3ec-fc82-4da4-8a77-356df1b80b61"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8437066465616226
+        },
+        {
+          "eids": [
+            "90e1259c-c6f5-41bd-b169-f0fc6979fb47",
+            "3000464e-fda4-489f-b7ce-72a1acf67a81"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.8155089721083641
+        },
+        {
+          "eids": [
+            "78edda42-175b-4fd0-885c-c8c2e5ed2d0b"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7687066465616226
+        },
+        {
+          "eids": [
+            "78edda42-175b-4fd0-885c-c8c2e5ed2d0b"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.7687066465616226
+        }
+      ]
+    },
+    "stress_056": {
+      "source_sample_idx": 9,
+      "type": "contradiction_resolution",
+      "question": "What is the status of Calvin's album?",
+      "current_valid_answer": "His album is almost finished.",
+      "outdated_answer": "He was struggling with musical creativity.",
+      "prediction": "Album released on September 11, 2023",
+      "f1_valid": 0.1818181818181818,
+      "path_eids": [
+        "26a6bce6-4dde-4e01-966a-a6978e4737df",
+        "ef96fe39-63b5-4be1-ac89-791a47b828b3",
+        "8f583d54-36f9-4608-93f2-747a6ccd1f8a",
+        "1bf73d92-d618-468d-a250-5ad1f54e72a0",
+        "8f583d54-36f9-4608-93f2-747a6ccd1f8a",
+        "1bf73d92-d618-468d-a250-5ad1f54e72a0",
+        "ad269c0b-5253-4ecd-b2fe-66e99c94630c",
+        "8f583d54-36f9-4608-93f2-747a6ccd1f8a",
+        "1bf73d92-d618-468d-a250-5ad1f54e72a0",
+        "eb2c6b93-28e2-4e55-bb99-c7adde72bff0",
+        "8f583d54-36f9-4608-93f2-747a6ccd1f8a"
+      ],
+      "top_paths": [
+        {
+          "eids": [
+            "26a6bce6-4dde-4e01-966a-a6978e4737df",
+            "ef96fe39-63b5-4be1-ac89-791a47b828b3"
+          ],
+          "edge_types": [
+            "temporal_after"
+          ],
+          "score": 0.838555246591568
+        },
+        {
+          "eids": [
+            "8f583d54-36f9-4608-93f2-747a6ccd1f8a",
+            "1bf73d92-d618-468d-a250-5ad1f54e72a0"
+          ],
+          "edge_types": [
+            "temporal_before"
+          ],
+          "score": 0.8384093254804611
+        },
+        {
+          "eids": [
+            "8f583d54-36f9-4608-93f2-747a6ccd1f8a",
+            "1bf73d92-d618-468d-a250-5ad1f54e72a0",
+            "ad269c0b-5253-4ecd-b2fe-66e99c94630c"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "causes"
+          ],
+          "score": 0.8046593254804612
+        },
+        {
+          "eids": [
+            "8f583d54-36f9-4608-93f2-747a6ccd1f8a",
+            "1bf73d92-d618-468d-a250-5ad1f54e72a0",
+            "eb2c6b93-28e2-4e55-bb99-c7adde72bff0"
+          ],
+          "edge_types": [
+            "temporal_before",
+            "causes"
+          ],
+          "score": 0.8046593254804612
+        },
+        {
+          "eids": [
+            "8f583d54-36f9-4608-93f2-747a6ccd1f8a"
+          ],
+          "edge_types": [
+            "session_link"
+          ],
+          "score": 0.788409325480461
+        }
+      ]
+    }
+  }
+}
