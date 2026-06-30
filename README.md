@@ -114,6 +114,10 @@ python eval_llm_judge.py --result results/locomo/<file>.json --judge_runs 3
 
 Pass `--judge_runs 0` to either `eval_locomo.py` or `eval_longmemeval.py` to skip the auto-judge step.
 
+## Exploring the graph
+
+Open `interactive/graph_explorer.html` in any browser — no server, no build step — to explore the hierarchical hypergraph (Event → Session → Topic) TRACE builds from each conversation. Pick a sample from the dropdown; event nodes are shaped and colored by type, edges by relation, and stale facts are grayed out. `stress_paths.json` overlays the reasoning path for each stress-test question.
+
 ## Repository layout
 
 ```
@@ -136,9 +140,15 @@ TRACE_release/
 ├── trace/                            core TRACE library (17 modules)
 │   └── prompts/                      6 LLM prompt templates (extraction, cross-note, update, QA, entity extraction, LongMemEval judge)
 ├── configs/                          8 experiment configs (4 LoCoMo + 4 LongMemEval)
-└── data/
-    ├── locomo10.json
-    └── download_longmemeval.sh        fetches LongMemEval-S into data/longmemeval_s_cleaned.json
+├── data/
+│   ├── locomo10.json
+│   └── download_longmemeval.sh        fetches LongMemEval-S into data/longmemeval_s_cleaned.json
+└── interactive/                       browser-based explorer for the hierarchical hypergraph
+    ├── graph_explorer.html            self-contained viewer; open directly, no server needed
+    ├── assets/
+    │   └── vis-network-9.1.9.min.js   vendored vis.js (renders offline)
+    └── data/
+        └── stress_paths.json          extracted reasoning paths for the stress-test questions
 ```
 
 ## License
