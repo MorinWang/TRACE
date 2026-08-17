@@ -114,6 +114,27 @@ python eval_llm_judge.py --result results/locomo/<file>.json --judge_runs 3
 
 Pass `--judge_runs 0` to either `eval_locomo.py` or `eval_longmemeval.py` to skip the auto-judge step.
 
+## Incremental ingestion
+
+`incremental_ingest.py` ingests **one arriving session at a time** into a graph that already holds the ingested history, rather than building over a fixed history offline. It runs the batch builder's four steps — insert, link, propagate, attach to the hierarchy — for a single session, reusing the same components (`EventExtractor`, `UpdateDetector`, `ValidityPropagator`) with the same admission predicates and per-event caps, lifted to named constants so they can be compared mechanically against the batch code.
+
+Sessions are assumed to arrive in chronological order and be appended; out-of-order and backfilled arrival are out of scope. Topic assignment is the one step with no incremental form — global LLM clustering needs every session in a single prompt — so an arriving session joins its nearest topic centroid and the layer is periodically re-derived (`TopicCentroidAssigner`).
+
+Both tools below need the LoCoMo graphs to exist, so run the graph build first (`build_graph_locomo.py`, step 2 above). Neither makes an LLM call.
+
+```bash
+# Behavioural parity against the batch builder: same gates, same thresholds,
+# same exclusion rules, same propagation contract, same serialisation (C1-C8).
+python scripts/verify_incremental_parity.py --all
+
+# Marginal supersession-screening cost of ingesting one more session.
+python scripts/measure_incremental_marginal_cost.py
+```
+
+The parity check replays each built graph in arrival order with the LLM verdicts read back off that graph rather than re-queried, so it is deterministic. It checks operation-level agreement — notably that every supersession candidate is drawn from strictly earlier sessions — and explicitly does *not* claim edge-for-edge equivalence with a batch rebuild.
+
+The measurement replays each graph in arrival order and reports, bucketed by how much history had been ingested, the raw candidate pool per new event (participant predicate, before the cap) against the pairs actually reaching the pairwise classifier (after the cap). It reads its thresholds from `incremental_ingest` rather than restating them, so it cannot drift from the gates the driver applies. Output goes to `results/incremental/marginal_cost_locomo.json`.
+
 ## Exploring the graph
 
 Open `interactive/graph_explorer.html` in any browser — no server, no build step — to explore the hierarchical hypergraph (Event → Session → Topic) TRACE builds from each conversation. Pick a sample from the dropdown; event nodes are shaped and colored by type, edges by relation, and stale facts are grayed out. `stress_paths.json` overlays the reasoning path for each stress-test question.
@@ -134,12 +155,16 @@ TRACE_release/
 ├── ingest_longmemeval.py             LongMemEval memory ingest + session summaries
 ├── build_graph_locomo.py             LoCoMo hierarchical graph builder
 ├── build_graph_longmemeval.py        LongMemEval hierarchical graph builder
+├── incremental_ingest.py             single-session incremental ingestion driver
 ├── memory_layer_robust.py            A-Mem memory system
 ├── load_dataset.py                   LoCoMo dataset parser
 ├── utils.py                          evaluation metrics
 ├── trace/                            core TRACE library (17 modules)
 │   └── prompts/                      6 LLM prompt templates (extraction, cross-note, update, QA, entity extraction, LongMemEval judge)
 ├── configs/                          8 experiment configs (4 LoCoMo + 4 LongMemEval)
+├── scripts/
+│   ├── verify_incremental_parity.py      incremental vs. batch parity check (C1-C8, no LLM calls)
+│   └── measure_incremental_marginal_cost.py   per-session screening cost (no LLM calls)
 ├── data/
 │   ├── locomo10.json
 │   └── download_longmemeval.sh        fetches LongMemEval-S into data/longmemeval_s_cleaned.json
